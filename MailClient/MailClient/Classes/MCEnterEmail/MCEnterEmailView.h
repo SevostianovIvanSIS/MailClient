@@ -1,5 +1,5 @@
 //
-//  MCViewController.h
+//  MCEnterEmailView.h
 //  MailClient
 //
 //  Created by Ivan Sevostianov on 9/7/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MCViewController : UIViewController
+@interface MCEnterEmailView : UIView
 
 @end

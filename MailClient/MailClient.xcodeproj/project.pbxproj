@@ -10,17 +10,19 @@
 		E9287B4A19BC461600DE4137 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9287B4919BC461600DE4137 /* Foundation.framework */; };
 		E9287B4C19BC461600DE4137 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9287B4B19BC461600DE4137 /* CoreGraphics.framework */; };
 		E9287B4E19BC461600DE4137 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9287B4D19BC461600DE4137 /* UIKit.framework */; };
-		E9287B5419BC461600DE4137 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9287B5219BC461600DE4137 /* InfoPlist.strings */; };
 		E9287B5619BC461600DE4137 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9287B5519BC461600DE4137 /* main.m */; };
 		E9287B5A19BC461600DE4137 /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9287B5919BC461600DE4137 /* MCAppDelegate.m */; };
-		E9287B5D19BC461600DE4137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9287B5B19BC461600DE4137 /* Main.storyboard */; };
-		E9287B6019BC461600DE4137 /* MCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9287B5F19BC461600DE4137 /* MCViewController.m */; };
 		E9287B6219BC461600DE4137 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9287B6119BC461600DE4137 /* Images.xcassets */; };
 		E9287B6919BC461600DE4137 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9287B6819BC461600DE4137 /* XCTest.framework */; };
 		E9287B6A19BC461600DE4137 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9287B4919BC461600DE4137 /* Foundation.framework */; };
 		E9287B6B19BC461600DE4137 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9287B4D19BC461600DE4137 /* UIKit.framework */; };
 		E9287B7319BC461600DE4137 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9287B7119BC461600DE4137 /* InfoPlist.strings */; };
 		E9287B7519BC461600DE4137 /* MailClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9287B7419BC461600DE4137 /* MailClientTests.m */; };
+		E9287B8219BC498100DE4137 /* MCEnterEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9287B8119BC498100DE4137 /* MCEnterEmailViewController.m */; };
+		E9287B8719BC49BE00DE4137 /* MCEnterEmailView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9287B8619BC49BE00DE4137 /* MCEnterEmailView.m */; };
+		E9287B8D19BC555C00DE4137 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9287B5219BC461600DE4137 /* InfoPlist.strings */; };
+		E9287B8E19BC558700DE4137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9287B5B19BC461600DE4137 /* Main.storyboard */; };
+		E9287B9319BC567B00DE4137 /* MCResources in Resources */ = {isa = PBXBuildFile; fileRef = E9287B9219BC567B00DE4137 /* MCResources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,17 @@
 		E9287B5819BC461600DE4137 /* MCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAppDelegate.h; sourceTree = "<group>"; };
 		E9287B5919BC461600DE4137 /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
 		E9287B5C19BC461600DE4137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E9287B5E19BC461600DE4137 /* MCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCViewController.h; sourceTree = "<group>"; };
-		E9287B5F19BC461600DE4137 /* MCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCViewController.m; sourceTree = "<group>"; };
 		E9287B6119BC461600DE4137 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E9287B6719BC461600DE4137 /* MailClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9287B6819BC461600DE4137 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E9287B7019BC461600DE4137 /* MailClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MailClientTests-Info.plist"; sourceTree = "<group>"; };
 		E9287B7219BC461600DE4137 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E9287B7419BC461600DE4137 /* MailClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailClientTests.m; sourceTree = "<group>"; };
+		E9287B8019BC498100DE4137 /* MCEnterEmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCEnterEmailViewController.h; sourceTree = "<group>"; };
+		E9287B8119BC498100DE4137 /* MCEnterEmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCEnterEmailViewController.m; sourceTree = "<group>"; };
+		E9287B8519BC49BE00DE4137 /* MCEnterEmailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCEnterEmailView.h; sourceTree = "<group>"; };
+		E9287B8619BC49BE00DE4137 /* MCEnterEmailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCEnterEmailView.m; sourceTree = "<group>"; };
+		E9287B9219BC567B00DE4137 /* MCResources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MCResources; path = MailClient/MCResources; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +117,10 @@
 		E9287B4F19BC461600DE4137 /* MailClient */ = {
 			isa = PBXGroup;
 			children = (
+				E9287B7E19BC498100DE4137 /* Classes */,
 				E9287B5819BC461600DE4137 /* MCAppDelegate.h */,
 				E9287B5919BC461600DE4137 /* MCAppDelegate.m */,
 				E9287B5B19BC461600DE4137 /* Main.storyboard */,
-				E9287B5E19BC461600DE4137 /* MCViewController.h */,
-				E9287B5F19BC461600DE4137 /* MCViewController.m */,
 				E9287B6119BC461600DE4137 /* Images.xcassets */,
 				E9287B5019BC461600DE4137 /* Supporting Files */,
 			);
@@ -150,6 +154,26 @@
 				E9287B7119BC461600DE4137 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9287B7E19BC498100DE4137 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E9287B9219BC567B00DE4137 /* MCResources */,
+				E9287B7F19BC498100DE4137 /* MCEnterEmail */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E9287B7F19BC498100DE4137 /* MCEnterEmail */ = {
+			isa = PBXGroup;
+			children = (
+				E9287B8019BC498100DE4137 /* MCEnterEmailViewController.h */,
+				E9287B8119BC498100DE4137 /* MCEnterEmailViewController.m */,
+				E9287B8519BC49BE00DE4137 /* MCEnterEmailView.h */,
+				E9287B8619BC49BE00DE4137 /* MCEnterEmailView.m */,
+			);
+			path = MCEnterEmail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +253,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9287B8E19BC558700DE4137 /* Main.storyboard in Resources */,
+				E9287B8D19BC555C00DE4137 /* InfoPlist.strings in Resources */,
+				E9287B9319BC567B00DE4137 /* MCResources in Resources */,
 				E9287B6219BC461600DE4137 /* Images.xcassets in Resources */,
-				E9287B5419BC461600DE4137 /* InfoPlist.strings in Resources */,
-				E9287B5D19BC461600DE4137 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9287B5A19BC461600DE4137 /* MCAppDelegate.m in Sources */,
-				E9287B6019BC461600DE4137 /* MCViewController.m in Sources */,
+				E9287B8219BC498100DE4137 /* MCEnterEmailViewController.m in Sources */,
+				E9287B8719BC49BE00DE4137 /* MCEnterEmailView.m in Sources */,
 				E9287B5619BC461600DE4137 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +485,7 @@
 				E9287B7A19BC461600DE4137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9287B7B19BC461600DE4137 /* Build configuration list for PBXNativeTarget "MailClientTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +494,7 @@
 				E9287B7D19BC461600DE4137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

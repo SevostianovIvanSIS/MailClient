@@ -1,18 +1,18 @@
 //
-//  MCViewController.m
+//  MCEnterEmailViewController.m
 //  MailClient
 //
 //  Created by Ivan Sevostianov on 9/7/14.
 //  Copyright (c) 2014 Sevostianov. All rights reserved.
 //
 
-#import "MCViewController.h"
+#import "MCEnterEmailViewController.h"
 
-@interface MCViewController ()
+@interface MCEnterEmailViewController ()
 
 @end
 
-@implementation MCViewController
+@implementation MCEnterEmailViewController
 
 - (void)viewDidLoad
 {
