@@ -10,4 +10,9 @@
 
 @interface MCEnterEmailView : UIView
 
+@property (nonatomic, strong) IBOutlet UITextField *EmailTextField;
+@property (nonatomic, strong) IBOutlet UITextField *PasswordTextField;
+@property (nonatomic, strong) IBOutlet UIButton *GoToMailsButton;
+@property (nonatomic, strong) IBOutlet UIActivityIndicatorView *ActivityIndicator;
+
 @end

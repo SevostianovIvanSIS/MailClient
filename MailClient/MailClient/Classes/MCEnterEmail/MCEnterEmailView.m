@@ -10,6 +10,11 @@
 
 @implementation MCEnterEmailView
 
+@synthesize EmailTextField = m_pEmailTextField;
+@synthesize PasswordTextField = m_pPasswordTextField;
+@synthesize GoToMailsButton = m_pGoToMailsButton;
+@synthesize ActivityIndicator = m_pActivityIndicator;
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];

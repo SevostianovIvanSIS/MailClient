@@ -26,12 +26,28 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yUH-Za-9rQ" userLabel="GoToMailButton">
-                                <rect key="frame" x="316" y="376" width="137" height="78"/>
+                                <rect key="frame" x="327" y="389" width="114" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go" image="darkArrow.png"/>
+                                <connections>
+                                    <action selector="goToMailsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EaH-P1-zgp"/>
+                                </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" id="dzm-qL-uco">
+                                <rect key="frame" x="374" y="389" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="0.81177819293478259" green="0.81177819293478259" blue="0.81177819293478259" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <outlet property="ActivityIndicator" destination="dzm-qL-uco" id="Sxf-pl-8yZ"/>
+                            <outlet property="EmailTextField" destination="eZb-4o-p3j" id="Mfs-UW-cFG"/>
+                            <outlet property="GoToMailsButton" destination="yUH-Za-9rQ" id="Tp0-D9-hTj"/>
+                            <outlet property="PasswordTextField" destination="llY-c7-XTP" id="9fQ-MN-Dzz"/>
+                            <outlet property="m_pEmailTextField" destination="eZb-4o-p3j" id="qbs-Q4-if8"/>
+                            <outlet property="m_pGoToMailsButton" destination="yUH-Za-9rQ" id="7VD-Ar-t8V"/>
+                            <outlet property="m_pPasswordTextField" destination="llY-c7-XTP" id="aug-fS-GNi"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="fVE-eB-dEz"/>
                     <connections>
@@ -42,23 +58,60 @@
             </objects>
             <point key="canvasLocation" x="-240" y="-18"/>
         </scene>
-        <!--Table View Controller - Mails-->
+        <!--Mail Preview Table View Controller - Mails-->
         <scene sceneID="Uoz-1s-ifM">
             <objects>
-                <tableViewController id="XJo-Xs-ZVQ" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="134" sectionHeaderHeight="22" sectionFooterHeight="22" id="lkN-mN-Ehv">
+                <tableViewController id="XJo-Xs-ZVQ" customClass="MCMailPreviewTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="170" sectionHeaderHeight="22" sectionFooterHeight="22" id="lkN-mN-Ehv">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="134" id="JBa-s5-Cjl">
-                                <rect key="frame" x="0.0" y="86" width="768" height="134"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MCMailPreviewCell" rowHeight="170" id="JBa-s5-Cjl" customClass="MCMailPreviewCell">
+                                <rect key="frame" x="0.0" y="22" width="768" height="170"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JBa-s5-Cjl" id="kVH-BP-aAT">
-                                    <rect key="frame" x="0.0" y="0.0" width="735" height="133"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="735" height="169"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subject:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2qV-yx-bfQ" userLabel="SubjectLabel">
+                                            <rect key="frame" x="20" y="49" width="83" height="32"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4ew-dE-gZi" userLabel="NameLabel">
+                                            <rect key="frame" x="20" y="89" width="83" height="22"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nNs-BI-tje" userLabel="DateLabel">
+                                            <rect key="frame" x="20" y="20" width="58" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subject" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bTH-aJ-xW6" userLabel="SubjectLabelText">
+                                            <rect key="frame" x="100" y="52" width="615" height="25"/>
+                                            <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SMq-tM-acY" userLabel="DateLabelText">
+                                            <rect key="frame" x="100" y="23" width="635" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DMl-8j-6g2" userLabel="NameLabelText">
+                                            <rect key="frame" x="100" y="91" width="615" height="20"/>
+                                            <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="MailDate" destination="SMq-tM-acY" id="Go4-Fh-xfi"/>
+                                    <outlet property="MailSenderName" destination="DMl-8j-6g2" id="rco-4d-XSf"/>
+                                    <outlet property="MailSubject" destination="bTH-aJ-xW6" id="Jrh-UU-Fsm"/>
                                     <segue destination="a0S-XQ-uWC" kind="push" identifier="ToDetailViewSegue" id="j9G-K6-U3i"/>
                                 </connections>
                             </tableViewCell>
@@ -69,25 +122,38 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Mails" id="gEF-3l-6MR"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="replace" identifier="RturnToEnterEmail" splitViewControllerTargetIndex="1" id="Vaa-4D-mZB"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LSC-TE-R2V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="794" y="-18"/>
+            <point key="canvasLocation" x="-240" y="-1492"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail Mail View Controller-->
         <scene sceneID="18j-k1-bYu">
             <objects>
-                <viewController id="a0S-XQ-uWC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="nul-ZY-FjR">
+                <viewController id="a0S-XQ-uWC" customClass="MCDetailMailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nul-ZY-FjR" customClass="MCDetailMailView">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="avq-fw-uxu" userLabel="MailContentView">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="MailContentView" destination="avq-fw-uxu" id="DhR-Oh-t99"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="xKA-nE-C9F"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9ZM-GZ-n6m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2082" y="-18"/>
+            <point key="canvasLocation" x="1496" y="-1492"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="aRi-8z-gfr">
@@ -113,4 +179,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="Vaa-4D-mZB"/>
+    </inferredMetricsTieBreakers>
 </document>

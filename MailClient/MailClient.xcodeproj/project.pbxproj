@@ -22,7 +22,31 @@
 		E9287B8719BC49BE00DE4137 /* MCEnterEmailView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9287B8619BC49BE00DE4137 /* MCEnterEmailView.m */; };
 		E9287B8D19BC555C00DE4137 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9287B5219BC461600DE4137 /* InfoPlist.strings */; };
 		E9287B8E19BC558700DE4137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9287B5B19BC461600DE4137 /* Main.storyboard */; };
-		E9287B9319BC567B00DE4137 /* MCResources in Resources */ = {isa = PBXBuildFile; fileRef = E9287B9219BC567B00DE4137 /* MCResources */; };
+		E9B5DD7D19BCD5930022EAB7 /* MCMailPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B5DD7C19BCD5930022EAB7 /* MCMailPreviewCell.m */; };
+		E9B5DD8019BCD5F20022EAB7 /* MCMailPreviewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B5DD7F19BCD5F20022EAB7 /* MCMailPreviewTableViewController.m */; };
+		E9B5DD8719BCD7C60022EAB7 /* MCDetailMailView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B5DD8619BCD7C60022EAB7 /* MCDetailMailView.m */; };
+		E9B5DD8A19BCD7F70022EAB7 /* MCDetailMailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B5DD8919BCD7F70022EAB7 /* MCDetailMailViewController.m */; };
+		E9B5DD8D19BCDA820022EAB7 /* darkArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B5DD8C19BCDA820022EAB7 /* darkArrow.png */; };
+		E9B69B0019BC87F0008DF191 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69AFF19BC87F0008DF191 /* CFNetwork.framework */; };
+		E9B69B0219BC87F5008DF191 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69B0119BC87F5008DF191 /* Security.framework */; };
+		E9B69F0D19BC99BE008DF191 /* libctemplate-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69CBC19BC99BD008DF191 /* libctemplate-ios.a */; };
+		E9B69F0E19BC99BE008DF191 /* libicudata.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69D7119BC99BD008DF191 /* libicudata.a */; };
+		E9B69F0F19BC99BE008DF191 /* libicui18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69D7219BC99BD008DF191 /* libicui18n.a */; };
+		E9B69F1019BC99BE008DF191 /* libicuio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69D7319BC99BD008DF191 /* libicuio.a */; };
+		E9B69F1119BC99BE008DF191 /* libicule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69D7419BC99BD008DF191 /* libicule.a */; };
+		E9B69F1219BC99BE008DF191 /* libiculx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69D7519BC99BD008DF191 /* libiculx.a */; };
+		E9B69F1319BC99BE008DF191 /* libicutest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69D7619BC99BD008DF191 /* libicutest.a */; };
+		E9B69F1419BC99BE008DF191 /* libicutu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69D7719BC99BD008DF191 /* libicutu.a */; };
+		E9B69F1519BC99BE008DF191 /* libicuuc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69D7819BC99BD008DF191 /* libicuuc.a */; };
+		E9B69F1619BC99BE008DF191 /* libetpan-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69E2019BC99BE008DF191 /* libetpan-ios.a */; };
+		E9B69F1719BC99BE008DF191 /* libsasl2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69E2D19BC99BE008DF191 /* libsasl2.a */; };
+		E9B69F1819BC99BE008DF191 /* libanonymous.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69E2F19BC99BE008DF191 /* libanonymous.a */; };
+		E9B69F1919BC99BE008DF191 /* libcrammd5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69E3019BC99BE008DF191 /* libcrammd5.a */; };
+		E9B69F1A19BC99BE008DF191 /* liblogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69E3119BC99BE008DF191 /* liblogin.a */; };
+		E9B69F1B19BC99BE008DF191 /* libplain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69E3219BC99BE008DF191 /* libplain.a */; };
+		E9B69F1C19BC99BE008DF191 /* libsasldb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69E3319BC99BE008DF191 /* libsasldb.a */; };
+		E9B69F1D19BC99BE008DF191 /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69F0319BC99BE008DF191 /* libMailCore-ios.a */; };
+		E9B69F1E19BC99BE008DF191 /* libtidy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B69F0C19BC99BE008DF191 /* libtidy.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +81,603 @@
 		E9287B8119BC498100DE4137 /* MCEnterEmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCEnterEmailViewController.m; sourceTree = "<group>"; };
 		E9287B8519BC49BE00DE4137 /* MCEnterEmailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCEnterEmailView.h; sourceTree = "<group>"; };
 		E9287B8619BC49BE00DE4137 /* MCEnterEmailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCEnterEmailView.m; sourceTree = "<group>"; };
-		E9287B9219BC567B00DE4137 /* MCResources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MCResources; path = MailClient/MCResources; sourceTree = SOURCE_ROOT; };
+		E9B5DD7B19BCD5930022EAB7 /* MCMailPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMailPreviewCell.h; sourceTree = "<group>"; };
+		E9B5DD7C19BCD5930022EAB7 /* MCMailPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMailPreviewCell.m; sourceTree = "<group>"; };
+		E9B5DD7E19BCD5F20022EAB7 /* MCMailPreviewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMailPreviewTableViewController.h; sourceTree = "<group>"; };
+		E9B5DD7F19BCD5F20022EAB7 /* MCMailPreviewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMailPreviewTableViewController.m; sourceTree = "<group>"; };
+		E9B5DD8519BCD7C60022EAB7 /* MCDetailMailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDetailMailView.h; sourceTree = "<group>"; };
+		E9B5DD8619BCD7C60022EAB7 /* MCDetailMailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDetailMailView.m; sourceTree = "<group>"; };
+		E9B5DD8819BCD7F70022EAB7 /* MCDetailMailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDetailMailViewController.h; sourceTree = "<group>"; };
+		E9B5DD8919BCD7F70022EAB7 /* MCDetailMailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDetailMailViewController.m; sourceTree = "<group>"; };
+		E9B5DD8C19BCDA820022EAB7 /* darkArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkArrow.png; sourceTree = "<group>"; };
+		E9B69AFF19BC87F0008DF191 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E9B69B0119BC87F5008DF191 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E9B69BD619BC8ABC008DF191 /* MCConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCConstants.h; sourceTree = "<group>"; };
+		E9B69BD719BC8ADD008DF191 /* MCSegueId.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCSegueId.h; sourceTree = "<group>"; };
+		E9B69CAE19BC99BD008DF191 /* per_expand_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_expand_data.h; sourceTree = "<group>"; };
+		E9B69CAF19BC99BD008DF191 /* str_ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = str_ref.h; sourceTree = "<group>"; };
+		E9B69CB019BC99BD008DF191 /* template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = template.h; sourceTree = "<group>"; };
+		E9B69CB119BC99BD008DF191 /* template_annotator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = template_annotator.h; sourceTree = "<group>"; };
+		E9B69CB219BC99BD008DF191 /* template_cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = template_cache.h; sourceTree = "<group>"; };
+		E9B69CB319BC99BD008DF191 /* template_dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = template_dictionary.h; sourceTree = "<group>"; };
+		E9B69CB419BC99BD008DF191 /* template_dictionary_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = template_dictionary_interface.h; sourceTree = "<group>"; };
+		E9B69CB519BC99BD008DF191 /* template_emitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = template_emitter.h; sourceTree = "<group>"; };
+		E9B69CB619BC99BD008DF191 /* template_enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = template_enums.h; sourceTree = "<group>"; };
+		E9B69CB719BC99BD008DF191 /* template_modifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = template_modifiers.h; sourceTree = "<group>"; };
+		E9B69CB819BC99BD008DF191 /* template_namelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = template_namelist.h; sourceTree = "<group>"; };
+		E9B69CB919BC99BD008DF191 /* template_pathops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = template_pathops.h; sourceTree = "<group>"; };
+		E9B69CBA19BC99BD008DF191 /* template_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = template_string.h; sourceTree = "<group>"; };
+		E9B69CBC19BC99BD008DF191 /* libctemplate-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libctemplate-ios.a"; sourceTree = "<group>"; };
+		E9B69CC019BC99BD008DF191 /* LayoutEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutEngine.h; sourceTree = "<group>"; };
+		E9B69CC119BC99BD008DF191 /* LEFontInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEFontInstance.h; sourceTree = "<group>"; };
+		E9B69CC219BC99BD008DF191 /* LEGlyphFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGlyphFilter.h; sourceTree = "<group>"; };
+		E9B69CC319BC99BD008DF191 /* LEGlyphStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGlyphStorage.h; sourceTree = "<group>"; };
+		E9B69CC419BC99BD008DF191 /* LEInsertionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEInsertionList.h; sourceTree = "<group>"; };
+		E9B69CC519BC99BD008DF191 /* LELanguages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LELanguages.h; sourceTree = "<group>"; };
+		E9B69CC619BC99BD008DF191 /* LEScripts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEScripts.h; sourceTree = "<group>"; };
+		E9B69CC719BC99BD008DF191 /* LESwaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LESwaps.h; sourceTree = "<group>"; };
+		E9B69CC819BC99BD008DF191 /* LETypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LETypes.h; sourceTree = "<group>"; };
+		E9B69CC919BC99BD008DF191 /* loengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loengine.h; sourceTree = "<group>"; };
+		E9B69CCA19BC99BD008DF191 /* ParagraphLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParagraphLayout.h; sourceTree = "<group>"; };
+		E9B69CCB19BC99BD008DF191 /* playout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playout.h; sourceTree = "<group>"; };
+		E9B69CCC19BC99BD008DF191 /* plruns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plruns.h; sourceTree = "<group>"; };
+		E9B69CCD19BC99BD008DF191 /* RunArrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunArrays.h; sourceTree = "<group>"; };
+		E9B69CCF19BC99BD008DF191 /* alphaindex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alphaindex.h; sourceTree = "<group>"; };
+		E9B69CD019BC99BD008DF191 /* appendable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appendable.h; sourceTree = "<group>"; };
+		E9B69CD119BC99BD008DF191 /* basictz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basictz.h; sourceTree = "<group>"; };
+		E9B69CD219BC99BD008DF191 /* brkiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brkiter.h; sourceTree = "<group>"; };
+		E9B69CD319BC99BD008DF191 /* bytestream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytestream.h; sourceTree = "<group>"; };
+		E9B69CD419BC99BD008DF191 /* bytestrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytestrie.h; sourceTree = "<group>"; };
+		E9B69CD519BC99BD008DF191 /* bytestriebuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytestriebuilder.h; sourceTree = "<group>"; };
+		E9B69CD619BC99BD008DF191 /* calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calendar.h; sourceTree = "<group>"; };
+		E9B69CD719BC99BD008DF191 /* caniter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caniter.h; sourceTree = "<group>"; };
+		E9B69CD819BC99BD008DF191 /* chariter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chariter.h; sourceTree = "<group>"; };
+		E9B69CD919BC99BD008DF191 /* choicfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = choicfmt.h; sourceTree = "<group>"; };
+		E9B69CDA19BC99BD008DF191 /* coleitr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coleitr.h; sourceTree = "<group>"; };
+		E9B69CDB19BC99BD008DF191 /* coll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coll.h; sourceTree = "<group>"; };
+		E9B69CDC19BC99BD008DF191 /* compactdecimalformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compactdecimalformat.h; sourceTree = "<group>"; };
+		E9B69CDD19BC99BD008DF191 /* curramt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curramt.h; sourceTree = "<group>"; };
+		E9B69CDE19BC99BD008DF191 /* currpinf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = currpinf.h; sourceTree = "<group>"; };
+		E9B69CDF19BC99BD008DF191 /* currunit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = currunit.h; sourceTree = "<group>"; };
+		E9B69CE019BC99BD008DF191 /* datefmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datefmt.h; sourceTree = "<group>"; };
+		E9B69CE119BC99BD008DF191 /* dbbi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbbi.h; sourceTree = "<group>"; };
+		E9B69CE219BC99BD008DF191 /* dcfmtsym.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dcfmtsym.h; sourceTree = "<group>"; };
+		E9B69CE319BC99BD008DF191 /* decimfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decimfmt.h; sourceTree = "<group>"; };
+		E9B69CE419BC99BD008DF191 /* docmain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = docmain.h; sourceTree = "<group>"; };
+		E9B69CE519BC99BD008DF191 /* dtfmtsym.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtfmtsym.h; sourceTree = "<group>"; };
+		E9B69CE619BC99BD008DF191 /* dtintrv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtintrv.h; sourceTree = "<group>"; };
+		E9B69CE719BC99BD008DF191 /* dtitvfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtitvfmt.h; sourceTree = "<group>"; };
+		E9B69CE819BC99BD008DF191 /* dtitvinf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtitvinf.h; sourceTree = "<group>"; };
+		E9B69CE919BC99BD008DF191 /* dtptngen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtptngen.h; sourceTree = "<group>"; };
+		E9B69CEA19BC99BD008DF191 /* dtrule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtrule.h; sourceTree = "<group>"; };
+		E9B69CEB19BC99BD008DF191 /* enumset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enumset.h; sourceTree = "<group>"; };
+		E9B69CEC19BC99BD008DF191 /* errorcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errorcode.h; sourceTree = "<group>"; };
+		E9B69CED19BC99BD008DF191 /* fieldpos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fieldpos.h; sourceTree = "<group>"; };
+		E9B69CEE19BC99BD008DF191 /* fmtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmtable.h; sourceTree = "<group>"; };
+		E9B69CEF19BC99BD008DF191 /* format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = format.h; sourceTree = "<group>"; };
+		E9B69CF019BC99BD008DF191 /* fpositer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fpositer.h; sourceTree = "<group>"; };
+		E9B69CF119BC99BD008DF191 /* gender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gender.h; sourceTree = "<group>"; };
+		E9B69CF219BC99BD008DF191 /* gregocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gregocal.h; sourceTree = "<group>"; };
+		E9B69CF319BC99BD008DF191 /* icudataver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icudataver.h; sourceTree = "<group>"; };
+		E9B69CF419BC99BD008DF191 /* icuplug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icuplug.h; sourceTree = "<group>"; };
+		E9B69CF519BC99BD008DF191 /* idna.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idna.h; sourceTree = "<group>"; };
+		E9B69CF619BC99BD008DF191 /* listformatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listformatter.h; sourceTree = "<group>"; };
+		E9B69CF719BC99BD008DF191 /* localpointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = localpointer.h; sourceTree = "<group>"; };
+		E9B69CF819BC99BD008DF191 /* locdspnm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = locdspnm.h; sourceTree = "<group>"; };
+		E9B69CF919BC99BD008DF191 /* locid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = locid.h; sourceTree = "<group>"; };
+		E9B69CFA19BC99BD008DF191 /* measfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measfmt.h; sourceTree = "<group>"; };
+		E9B69CFB19BC99BD008DF191 /* measunit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measunit.h; sourceTree = "<group>"; };
+		E9B69CFC19BC99BD008DF191 /* measure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measure.h; sourceTree = "<group>"; };
+		E9B69CFD19BC99BD008DF191 /* messagepattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messagepattern.h; sourceTree = "<group>"; };
+		E9B69CFE19BC99BD008DF191 /* msgfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msgfmt.h; sourceTree = "<group>"; };
+		E9B69CFF19BC99BD008DF191 /* normalizer2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = normalizer2.h; sourceTree = "<group>"; };
+		E9B69D0019BC99BD008DF191 /* normlzr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = normlzr.h; sourceTree = "<group>"; };
+		E9B69D0119BC99BD008DF191 /* numfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = numfmt.h; sourceTree = "<group>"; };
+		E9B69D0219BC99BD008DF191 /* numsys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = numsys.h; sourceTree = "<group>"; };
+		E9B69D0319BC99BD008DF191 /* parseerr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parseerr.h; sourceTree = "<group>"; };
+		E9B69D0419BC99BD008DF191 /* parsepos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parsepos.h; sourceTree = "<group>"; };
+		E9B69D0519BC99BD008DF191 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		E9B69D0619BC99BD008DF191 /* plurfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plurfmt.h; sourceTree = "<group>"; };
+		E9B69D0719BC99BD008DF191 /* plurrule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plurrule.h; sourceTree = "<group>"; };
+		E9B69D0819BC99BD008DF191 /* ptypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ptypes.h; sourceTree = "<group>"; };
+		E9B69D0919BC99BD008DF191 /* putil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = putil.h; sourceTree = "<group>"; };
+		E9B69D0A19BC99BD008DF191 /* rbbi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rbbi.h; sourceTree = "<group>"; };
+		E9B69D0B19BC99BD008DF191 /* rbnf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rbnf.h; sourceTree = "<group>"; };
+		E9B69D0C19BC99BD008DF191 /* rbtz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rbtz.h; sourceTree = "<group>"; };
+		E9B69D0D19BC99BD008DF191 /* regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regex.h; sourceTree = "<group>"; };
+		E9B69D0E19BC99BD008DF191 /* region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = region.h; sourceTree = "<group>"; };
+		E9B69D0F19BC99BD008DF191 /* rep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rep.h; sourceTree = "<group>"; };
+		E9B69D1019BC99BD008DF191 /* resbund.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resbund.h; sourceTree = "<group>"; };
+		E9B69D1119BC99BD008DF191 /* schriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = schriter.h; sourceTree = "<group>"; };
+		E9B69D1219BC99BD008DF191 /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
+		E9B69D1319BC99BD008DF191 /* selfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selfmt.h; sourceTree = "<group>"; };
+		E9B69D1419BC99BD008DF191 /* simpletz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simpletz.h; sourceTree = "<group>"; };
+		E9B69D1519BC99BD008DF191 /* smpdtfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smpdtfmt.h; sourceTree = "<group>"; };
+		E9B69D1619BC99BD008DF191 /* sortkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sortkey.h; sourceTree = "<group>"; };
+		E9B69D1719BC99BD008DF191 /* std_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = std_string.h; sourceTree = "<group>"; };
+		E9B69D1819BC99BD008DF191 /* strenum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strenum.h; sourceTree = "<group>"; };
+		E9B69D1919BC99BD008DF191 /* stringpiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringpiece.h; sourceTree = "<group>"; };
+		E9B69D1A19BC99BD008DF191 /* stringtriebuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringtriebuilder.h; sourceTree = "<group>"; };
+		E9B69D1B19BC99BD008DF191 /* stsearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stsearch.h; sourceTree = "<group>"; };
+		E9B69D1C19BC99BD008DF191 /* symtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symtable.h; sourceTree = "<group>"; };
+		E9B69D1D19BC99BD008DF191 /* tblcoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tblcoll.h; sourceTree = "<group>"; };
+		E9B69D1E19BC99BD008DF191 /* timezone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timezone.h; sourceTree = "<group>"; };
+		E9B69D1F19BC99BD008DF191 /* tmunit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmunit.h; sourceTree = "<group>"; };
+		E9B69D2019BC99BD008DF191 /* tmutamt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmutamt.h; sourceTree = "<group>"; };
+		E9B69D2119BC99BD008DF191 /* tmutfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmutfmt.h; sourceTree = "<group>"; };
+		E9B69D2219BC99BD008DF191 /* translit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = translit.h; sourceTree = "<group>"; };
+		E9B69D2319BC99BD008DF191 /* tzfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tzfmt.h; sourceTree = "<group>"; };
+		E9B69D2419BC99BD008DF191 /* tznames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tznames.h; sourceTree = "<group>"; };
+		E9B69D2519BC99BD008DF191 /* tzrule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tzrule.h; sourceTree = "<group>"; };
+		E9B69D2619BC99BD008DF191 /* tztrans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztrans.h; sourceTree = "<group>"; };
+		E9B69D2719BC99BD008DF191 /* ubidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ubidi.h; sourceTree = "<group>"; };
+		E9B69D2819BC99BD008DF191 /* ubrk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ubrk.h; sourceTree = "<group>"; };
+		E9B69D2919BC99BD008DF191 /* ucal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucal.h; sourceTree = "<group>"; };
+		E9B69D2A19BC99BD008DF191 /* ucasemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucasemap.h; sourceTree = "<group>"; };
+		E9B69D2B19BC99BD008DF191 /* ucat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucat.h; sourceTree = "<group>"; };
+		E9B69D2C19BC99BD008DF191 /* uchar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uchar.h; sourceTree = "<group>"; };
+		E9B69D2D19BC99BD008DF191 /* ucharstrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucharstrie.h; sourceTree = "<group>"; };
+		E9B69D2E19BC99BD008DF191 /* ucharstriebuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucharstriebuilder.h; sourceTree = "<group>"; };
+		E9B69D2F19BC99BD008DF191 /* uchriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uchriter.h; sourceTree = "<group>"; };
+		E9B69D3019BC99BD008DF191 /* uclean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uclean.h; sourceTree = "<group>"; };
+		E9B69D3119BC99BD008DF191 /* ucnv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucnv.h; sourceTree = "<group>"; };
+		E9B69D3219BC99BD008DF191 /* ucnv_cb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucnv_cb.h; sourceTree = "<group>"; };
+		E9B69D3319BC99BD008DF191 /* ucnv_err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucnv_err.h; sourceTree = "<group>"; };
+		E9B69D3419BC99BD008DF191 /* ucnvsel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucnvsel.h; sourceTree = "<group>"; };
+		E9B69D3519BC99BD008DF191 /* ucol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucol.h; sourceTree = "<group>"; };
+		E9B69D3619BC99BD008DF191 /* ucoleitr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucoleitr.h; sourceTree = "<group>"; };
+		E9B69D3719BC99BD008DF191 /* uconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uconfig.h; sourceTree = "<group>"; };
+		E9B69D3819BC99BD008DF191 /* ucsdet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucsdet.h; sourceTree = "<group>"; };
+		E9B69D3919BC99BD008DF191 /* ucurr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucurr.h; sourceTree = "<group>"; };
+		E9B69D3A19BC99BD008DF191 /* udat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udat.h; sourceTree = "<group>"; };
+		E9B69D3B19BC99BD008DF191 /* udata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udata.h; sourceTree = "<group>"; };
+		E9B69D3C19BC99BD008DF191 /* udateintervalformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udateintervalformat.h; sourceTree = "<group>"; };
+		E9B69D3D19BC99BD008DF191 /* udatpg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udatpg.h; sourceTree = "<group>"; };
+		E9B69D3E19BC99BD008DF191 /* udisplaycontext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udisplaycontext.h; sourceTree = "<group>"; };
+		E9B69D3F19BC99BD008DF191 /* uenum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uenum.h; sourceTree = "<group>"; };
+		E9B69D4019BC99BD008DF191 /* ugender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ugender.h; sourceTree = "<group>"; };
+		E9B69D4119BC99BD008DF191 /* uidna.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uidna.h; sourceTree = "<group>"; };
+		E9B69D4219BC99BD008DF191 /* uiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiter.h; sourceTree = "<group>"; };
+		E9B69D4319BC99BD008DF191 /* uldnames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uldnames.h; sourceTree = "<group>"; };
+		E9B69D4419BC99BD008DF191 /* uloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uloc.h; sourceTree = "<group>"; };
+		E9B69D4519BC99BD008DF191 /* ulocdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ulocdata.h; sourceTree = "<group>"; };
+		E9B69D4619BC99BD008DF191 /* umachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = umachine.h; sourceTree = "<group>"; };
+		E9B69D4719BC99BD008DF191 /* umisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = umisc.h; sourceTree = "<group>"; };
+		E9B69D4819BC99BD008DF191 /* umsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = umsg.h; sourceTree = "<group>"; };
+		E9B69D4919BC99BD008DF191 /* unifilt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unifilt.h; sourceTree = "<group>"; };
+		E9B69D4A19BC99BD008DF191 /* unifunct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unifunct.h; sourceTree = "<group>"; };
+		E9B69D4B19BC99BD008DF191 /* unimatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unimatch.h; sourceTree = "<group>"; };
+		E9B69D4C19BC99BD008DF191 /* unirepl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unirepl.h; sourceTree = "<group>"; };
+		E9B69D4D19BC99BD008DF191 /* uniset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uniset.h; sourceTree = "<group>"; };
+		E9B69D4E19BC99BD008DF191 /* unistr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unistr.h; sourceTree = "<group>"; };
+		E9B69D4F19BC99BD008DF191 /* unorm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unorm.h; sourceTree = "<group>"; };
+		E9B69D5019BC99BD008DF191 /* unorm2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unorm2.h; sourceTree = "<group>"; };
+		E9B69D5119BC99BD008DF191 /* unum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unum.h; sourceTree = "<group>"; };
+		E9B69D5219BC99BD008DF191 /* uobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uobject.h; sourceTree = "<group>"; };
+		E9B69D5319BC99BD008DF191 /* upluralrules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upluralrules.h; sourceTree = "<group>"; };
+		E9B69D5419BC99BD008DF191 /* uregex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uregex.h; sourceTree = "<group>"; };
+		E9B69D5519BC99BD008DF191 /* urename.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = urename.h; sourceTree = "<group>"; };
+		E9B69D5619BC99BD008DF191 /* urep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = urep.h; sourceTree = "<group>"; };
+		E9B69D5719BC99BD008DF191 /* ures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ures.h; sourceTree = "<group>"; };
+		E9B69D5819BC99BD008DF191 /* uscript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uscript.h; sourceTree = "<group>"; };
+		E9B69D5919BC99BD008DF191 /* usearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usearch.h; sourceTree = "<group>"; };
+		E9B69D5A19BC99BD008DF191 /* uset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uset.h; sourceTree = "<group>"; };
+		E9B69D5B19BC99BD008DF191 /* usetiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usetiter.h; sourceTree = "<group>"; };
+		E9B69D5C19BC99BD008DF191 /* ushape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ushape.h; sourceTree = "<group>"; };
+		E9B69D5D19BC99BD008DF191 /* uspoof.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uspoof.h; sourceTree = "<group>"; };
+		E9B69D5E19BC99BD008DF191 /* usprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usprep.h; sourceTree = "<group>"; };
+		E9B69D5F19BC99BD008DF191 /* ustdio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ustdio.h; sourceTree = "<group>"; };
+		E9B69D6019BC99BD008DF191 /* ustream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ustream.h; sourceTree = "<group>"; };
+		E9B69D6119BC99BD008DF191 /* ustring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ustring.h; sourceTree = "<group>"; };
+		E9B69D6219BC99BD008DF191 /* ustringtrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ustringtrie.h; sourceTree = "<group>"; };
+		E9B69D6319BC99BD008DF191 /* utext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utext.h; sourceTree = "<group>"; };
+		E9B69D6419BC99BD008DF191 /* utf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf.h; sourceTree = "<group>"; };
+		E9B69D6519BC99BD008DF191 /* utf16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf16.h; sourceTree = "<group>"; };
+		E9B69D6619BC99BD008DF191 /* utf32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf32.h; sourceTree = "<group>"; };
+		E9B69D6719BC99BD008DF191 /* utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
+		E9B69D6819BC99BD008DF191 /* utf_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf_old.h; sourceTree = "<group>"; };
+		E9B69D6919BC99BD008DF191 /* utmscale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utmscale.h; sourceTree = "<group>"; };
+		E9B69D6A19BC99BD008DF191 /* utrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utrace.h; sourceTree = "<group>"; };
+		E9B69D6B19BC99BD008DF191 /* utrans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utrans.h; sourceTree = "<group>"; };
+		E9B69D6C19BC99BD008DF191 /* utypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utypes.h; sourceTree = "<group>"; };
+		E9B69D6D19BC99BD008DF191 /* uvernum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uvernum.h; sourceTree = "<group>"; };
+		E9B69D6E19BC99BD008DF191 /* uversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uversion.h; sourceTree = "<group>"; };
+		E9B69D6F19BC99BD008DF191 /* vtzone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vtzone.h; sourceTree = "<group>"; };
+		E9B69D7119BC99BD008DF191 /* libicudata.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicudata.a; sourceTree = "<group>"; };
+		E9B69D7219BC99BD008DF191 /* libicui18n.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicui18n.a; sourceTree = "<group>"; };
+		E9B69D7319BC99BD008DF191 /* libicuio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicuio.a; sourceTree = "<group>"; };
+		E9B69D7419BC99BD008DF191 /* libicule.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicule.a; sourceTree = "<group>"; };
+		E9B69D7519BC99BD008DF191 /* libiculx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libiculx.a; sourceTree = "<group>"; };
+		E9B69D7619BC99BD008DF191 /* libicutest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicutest.a; sourceTree = "<group>"; };
+		E9B69D7719BC99BD008DF191 /* libicutu.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicutu.a; sourceTree = "<group>"; };
+		E9B69D7819BC99BD008DF191 /* libicuuc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicuuc.a; sourceTree = "<group>"; };
+		E9B69D7C19BC99BD008DF191 /* acl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = acl.h; sourceTree = "<group>"; };
+		E9B69D7D19BC99BD008DF191 /* acl_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = acl_types.h; sourceTree = "<group>"; };
+		E9B69D7E19BC99BD008DF191 /* annotatemore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = annotatemore.h; sourceTree = "<group>"; };
+		E9B69D7F19BC99BD008DF191 /* annotatemore_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = annotatemore_types.h; sourceTree = "<group>"; };
+		E9B69D8019BC99BD008DF191 /* carray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carray.h; sourceTree = "<group>"; };
+		E9B69D8119BC99BD008DF191 /* charconv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = charconv.h; sourceTree = "<group>"; };
+		E9B69D8219BC99BD008DF191 /* chash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chash.h; sourceTree = "<group>"; };
+		E9B69D8319BC99BD008DF191 /* clist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clist.h; sourceTree = "<group>"; };
+		E9B69D8419BC99BD008DF191 /* condstore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = condstore.h; sourceTree = "<group>"; };
+		E9B69D8519BC99BD008DF191 /* condstore_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = condstore_types.h; sourceTree = "<group>"; };
+		E9B69D8619BC99BD008DF191 /* data_message_driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data_message_driver.h; sourceTree = "<group>"; };
+		E9B69D8719BC99BD008DF191 /* dbdriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbdriver.h; sourceTree = "<group>"; };
+		E9B69D8819BC99BD008DF191 /* dbdriver_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbdriver_message.h; sourceTree = "<group>"; };
+		E9B69D8919BC99BD008DF191 /* dbdriver_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbdriver_types.h; sourceTree = "<group>"; };
+		E9B69D8A19BC99BD008DF191 /* dbstorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbstorage.h; sourceTree = "<group>"; };
+		E9B69D8B19BC99BD008DF191 /* enable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enable.h; sourceTree = "<group>"; };
+		E9B69D8C19BC99BD008DF191 /* feeddriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feeddriver.h; sourceTree = "<group>"; };
+		E9B69D8D19BC99BD008DF191 /* feeddriver_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feeddriver_message.h; sourceTree = "<group>"; };
+		E9B69D8E19BC99BD008DF191 /* feeddriver_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feeddriver_types.h; sourceTree = "<group>"; };
+		E9B69D8F19BC99BD008DF191 /* feedstorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feedstorage.h; sourceTree = "<group>"; };
+		E9B69D9019BC99BD008DF191 /* generic_cache_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = generic_cache_types.h; sourceTree = "<group>"; };
+		E9B69D9119BC99BD008DF191 /* hotmailstorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hotmailstorage.h; sourceTree = "<group>"; };
+		E9B69D9219BC99BD008DF191 /* idle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idle.h; sourceTree = "<group>"; };
+		E9B69D9319BC99BD008DF191 /* imapdriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imapdriver.h; sourceTree = "<group>"; };
+		E9B69D9419BC99BD008DF191 /* imapdriver_cached.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imapdriver_cached.h; sourceTree = "<group>"; };
+		E9B69D9519BC99BD008DF191 /* imapdriver_cached_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imapdriver_cached_message.h; sourceTree = "<group>"; };
+		E9B69D9619BC99BD008DF191 /* imapdriver_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imapdriver_message.h; sourceTree = "<group>"; };
+		E9B69D9719BC99BD008DF191 /* imapdriver_tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imapdriver_tools.h; sourceTree = "<group>"; };
+		E9B69D9819BC99BD008DF191 /* imapdriver_tools_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imapdriver_tools_private.h; sourceTree = "<group>"; };
+		E9B69D9919BC99BD008DF191 /* imapdriver_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imapdriver_types.h; sourceTree = "<group>"; };
+		E9B69D9A19BC99BD008DF191 /* imapstorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imapstorage.h; sourceTree = "<group>"; };
+		E9B69D9B19BC99BD008DF191 /* libetpan-config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libetpan-config.h"; sourceTree = "<group>"; };
+		E9B69D9C19BC99BD008DF191 /* libetpan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libetpan.h; sourceTree = "<group>"; };
+		E9B69D9D19BC99BD008DF191 /* libetpan_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libetpan_version.h; sourceTree = "<group>"; };
+		E9B69D9E19BC99BD008DF191 /* mail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mail.h; sourceTree = "<group>"; };
+		E9B69D9F19BC99BD008DF191 /* maildir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maildir.h; sourceTree = "<group>"; };
+		E9B69DA019BC99BD008DF191 /* maildir_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maildir_types.h; sourceTree = "<group>"; };
+		E9B69DA119BC99BD008DF191 /* maildirdriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maildirdriver.h; sourceTree = "<group>"; };
+		E9B69DA219BC99BD008DF191 /* maildirdriver_cached.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maildirdriver_cached.h; sourceTree = "<group>"; };
+		E9B69DA319BC99BD008DF191 /* maildirdriver_cached_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maildirdriver_cached_message.h; sourceTree = "<group>"; };
+		E9B69DA419BC99BD008DF191 /* maildirdriver_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maildirdriver_message.h; sourceTree = "<group>"; };
+		E9B69DA519BC99BD008DF191 /* maildirdriver_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maildirdriver_types.h; sourceTree = "<group>"; };
+		E9B69DA619BC99BD008DF191 /* maildirstorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maildirstorage.h; sourceTree = "<group>"; };
+		E9B69DA719BC99BD008DF191 /* maildriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maildriver.h; sourceTree = "<group>"; };
+		E9B69DA819BC99BD008DF191 /* maildriver_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maildriver_errors.h; sourceTree = "<group>"; };
+		E9B69DA919BC99BD008DF191 /* maildriver_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maildriver_types.h; sourceTree = "<group>"; };
+		E9B69DAA19BC99BD008DF191 /* maildriver_types_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maildriver_types_helper.h; sourceTree = "<group>"; };
+		E9B69DAB19BC99BD008DF191 /* mailengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailengine.h; sourceTree = "<group>"; };
+		E9B69DAC19BC99BD008DF191 /* mailfolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailfolder.h; sourceTree = "<group>"; };
+		E9B69DAD19BC99BD008DF191 /* mailimap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimap.h; sourceTree = "<group>"; };
+		E9B69DAE19BC99BD008DF191 /* mailimap_compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimap_compress.h; sourceTree = "<group>"; };
+		E9B69DAF19BC99BD008DF191 /* mailimap_extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimap_extension.h; sourceTree = "<group>"; };
+		E9B69DB019BC99BD008DF191 /* mailimap_extension_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimap_extension_types.h; sourceTree = "<group>"; };
+		E9B69DB119BC99BD008DF191 /* mailimap_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimap_helper.h; sourceTree = "<group>"; };
+		E9B69DB219BC99BD008DF191 /* mailimap_id.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimap_id.h; sourceTree = "<group>"; };
+		E9B69DB319BC99BD008DF191 /* mailimap_id_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimap_id_types.h; sourceTree = "<group>"; };
+		E9B69DB419BC99BD008DF191 /* mailimap_oauth2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimap_oauth2.h; sourceTree = "<group>"; };
+		E9B69DB519BC99BD008DF191 /* mailimap_socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimap_socket.h; sourceTree = "<group>"; };
+		E9B69DB619BC99BD008DF191 /* mailimap_sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimap_sort.h; sourceTree = "<group>"; };
+		E9B69DB719BC99BD008DF191 /* mailimap_sort_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimap_sort_types.h; sourceTree = "<group>"; };
+		E9B69DB819BC99BD008DF191 /* mailimap_ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimap_ssl.h; sourceTree = "<group>"; };
+		E9B69DB919BC99BD008DF191 /* mailimap_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimap_types.h; sourceTree = "<group>"; };
+		E9B69DBA19BC99BD008DF191 /* mailimap_types_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimap_types_helper.h; sourceTree = "<group>"; };
+		E9B69DBB19BC99BD008DF191 /* mailimf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimf.h; sourceTree = "<group>"; };
+		E9B69DBC19BC99BD008DF191 /* mailimf_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimf_types.h; sourceTree = "<group>"; };
+		E9B69DBD19BC99BD008DF191 /* mailimf_types_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimf_types_helper.h; sourceTree = "<group>"; };
+		E9B69DBE19BC99BD008DF191 /* mailimf_write_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimf_write_file.h; sourceTree = "<group>"; };
+		E9B69DBF19BC99BD008DF191 /* mailimf_write_generic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimf_write_generic.h; sourceTree = "<group>"; };
+		E9B69DC019BC99BD008DF191 /* mailimf_write_mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailimf_write_mem.h; sourceTree = "<group>"; };
+		E9B69DC119BC99BD008DF191 /* maillock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maillock.h; sourceTree = "<group>"; };
+		E9B69DC219BC99BD008DF191 /* mailmbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailmbox.h; sourceTree = "<group>"; };
+		E9B69DC319BC99BD008DF191 /* mailmbox_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailmbox_types.h; sourceTree = "<group>"; };
+		E9B69DC419BC99BD008DF191 /* mailmessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailmessage.h; sourceTree = "<group>"; };
+		E9B69DC519BC99BD008DF191 /* mailmessage_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailmessage_types.h; sourceTree = "<group>"; };
+		E9B69DC619BC99BD008DF191 /* mailmh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailmh.h; sourceTree = "<group>"; };
+		E9B69DC719BC99BD008DF191 /* mailmime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailmime.h; sourceTree = "<group>"; };
+		E9B69DC819BC99BD008DF191 /* mailmime_content.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailmime_content.h; sourceTree = "<group>"; };
+		E9B69DC919BC99BD008DF191 /* mailmime_decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailmime_decode.h; sourceTree = "<group>"; };
+		E9B69DCA19BC99BD008DF191 /* mailmime_disposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailmime_disposition.h; sourceTree = "<group>"; };
+		E9B69DCB19BC99BD008DF191 /* mailmime_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailmime_types.h; sourceTree = "<group>"; };
+		E9B69DCC19BC99BD008DF191 /* mailmime_types_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailmime_types_helper.h; sourceTree = "<group>"; };
+		E9B69DCD19BC99BD008DF191 /* mailmime_write_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailmime_write_file.h; sourceTree = "<group>"; };
+		E9B69DCE19BC99BD008DF191 /* mailmime_write_generic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailmime_write_generic.h; sourceTree = "<group>"; };
+		E9B69DCF19BC99BD008DF191 /* mailmime_write_mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailmime_write_mem.h; sourceTree = "<group>"; };
+		E9B69DD019BC99BD008DF191 /* mailpop3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailpop3.h; sourceTree = "<group>"; };
+		E9B69DD119BC99BD008DF191 /* mailpop3_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailpop3_helper.h; sourceTree = "<group>"; };
+		E9B69DD219BC99BD008DF191 /* mailpop3_socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailpop3_socket.h; sourceTree = "<group>"; };
+		E9B69DD319BC99BD008DF191 /* mailpop3_ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailpop3_ssl.h; sourceTree = "<group>"; };
+		E9B69DD419BC99BD008DF191 /* mailpop3_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailpop3_types.h; sourceTree = "<group>"; };
+		E9B69DD519BC99BD008DF191 /* mailprivacy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailprivacy.h; sourceTree = "<group>"; };
+		E9B69DD619BC99BD008DF191 /* mailprivacy_gnupg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailprivacy_gnupg.h; sourceTree = "<group>"; };
+		E9B69DD719BC99BD008DF191 /* mailprivacy_smime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailprivacy_smime.h; sourceTree = "<group>"; };
+		E9B69DD819BC99BD008DF191 /* mailprivacy_tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailprivacy_tools.h; sourceTree = "<group>"; };
+		E9B69DD919BC99BD008DF191 /* mailprivacy_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailprivacy_types.h; sourceTree = "<group>"; };
+		E9B69DDA19BC99BD008DF191 /* mailsem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailsem.h; sourceTree = "<group>"; };
+		E9B69DDB19BC99BD008DF191 /* mailsmtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailsmtp.h; sourceTree = "<group>"; };
+		E9B69DDC19BC99BD008DF191 /* mailsmtp_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailsmtp_helper.h; sourceTree = "<group>"; };
+		E9B69DDD19BC99BD008DF191 /* mailsmtp_oauth2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailsmtp_oauth2.h; sourceTree = "<group>"; };
+		E9B69DDE19BC99BD008DF191 /* mailsmtp_socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailsmtp_socket.h; sourceTree = "<group>"; };
+		E9B69DDF19BC99BD008DF191 /* mailsmtp_ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailsmtp_ssl.h; sourceTree = "<group>"; };
+		E9B69DE019BC99BD008DF191 /* mailsmtp_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailsmtp_types.h; sourceTree = "<group>"; };
+		E9B69DE119BC99BD008DF191 /* mailstorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailstorage.h; sourceTree = "<group>"; };
+		E9B69DE219BC99BD008DF191 /* mailstorage_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailstorage_types.h; sourceTree = "<group>"; };
+		E9B69DE319BC99BD008DF191 /* mailstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailstream.h; sourceTree = "<group>"; };
+		E9B69DE419BC99BD008DF191 /* mailstream_cfstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailstream_cfstream.h; sourceTree = "<group>"; };
+		E9B69DE519BC99BD008DF191 /* mailstream_compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailstream_compress.h; sourceTree = "<group>"; };
+		E9B69DE619BC99BD008DF191 /* mailstream_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailstream_helper.h; sourceTree = "<group>"; };
+		E9B69DE719BC99BD008DF191 /* mailstream_low.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailstream_low.h; sourceTree = "<group>"; };
+		E9B69DE819BC99BD008DF191 /* mailstream_socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailstream_socket.h; sourceTree = "<group>"; };
+		E9B69DE919BC99BD008DF191 /* mailstream_ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailstream_ssl.h; sourceTree = "<group>"; };
+		E9B69DEA19BC99BD008DF191 /* mailstream_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailstream_types.h; sourceTree = "<group>"; };
+		E9B69DEB19BC99BD008DF191 /* mailthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailthread.h; sourceTree = "<group>"; };
+		E9B69DEC19BC99BD008DF191 /* mailthread_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mailthread_types.h; sourceTree = "<group>"; };
+		E9B69DED19BC99BD008DF191 /* mboxdriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mboxdriver.h; sourceTree = "<group>"; };
+		E9B69DEE19BC99BD008DF191 /* mboxdriver_cached.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mboxdriver_cached.h; sourceTree = "<group>"; };
+		E9B69DEF19BC99BD008DF191 /* mboxdriver_cached_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mboxdriver_cached_message.h; sourceTree = "<group>"; };
+		E9B69DF019BC99BD008DF191 /* mboxdriver_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mboxdriver_message.h; sourceTree = "<group>"; };
+		E9B69DF119BC99BD008DF191 /* mboxdriver_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mboxdriver_types.h; sourceTree = "<group>"; };
+		E9B69DF219BC99BD008DF191 /* mboxstorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mboxstorage.h; sourceTree = "<group>"; };
+		E9B69DF319BC99BD008DF191 /* mhdriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mhdriver.h; sourceTree = "<group>"; };
+		E9B69DF419BC99BD008DF191 /* mhdriver_cached.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mhdriver_cached.h; sourceTree = "<group>"; };
+		E9B69DF519BC99BD008DF191 /* mhdriver_cached_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mhdriver_cached_message.h; sourceTree = "<group>"; };
+		E9B69DF619BC99BD008DF191 /* mhdriver_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mhdriver_message.h; sourceTree = "<group>"; };
+		E9B69DF719BC99BD008DF191 /* mhdriver_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mhdriver_types.h; sourceTree = "<group>"; };
+		E9B69DF819BC99BD008DF191 /* mhstorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mhstorage.h; sourceTree = "<group>"; };
+		E9B69DF919BC99BD008DF191 /* mime_message_driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mime_message_driver.h; sourceTree = "<group>"; };
+		E9B69DFA19BC99BD008DF191 /* mmapstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mmapstring.h; sourceTree = "<group>"; };
+		E9B69DFB19BC99BD008DF191 /* namespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = namespace.h; sourceTree = "<group>"; };
+		E9B69DFC19BC99BD008DF191 /* namespace_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = namespace_parser.h; sourceTree = "<group>"; };
+		E9B69DFD19BC99BD008DF191 /* namespace_sender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = namespace_sender.h; sourceTree = "<group>"; };
+		E9B69DFE19BC99BD008DF191 /* namespace_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = namespace_types.h; sourceTree = "<group>"; };
+		E9B69DFF19BC99BD008DF191 /* newsfeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsfeed.h; sourceTree = "<group>"; };
+		E9B69E0019BC99BD008DF191 /* newsfeed_item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsfeed_item.h; sourceTree = "<group>"; };
+		E9B69E0119BC99BD008DF191 /* newsfeed_item_enclosure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsfeed_item_enclosure.h; sourceTree = "<group>"; };
+		E9B69E0219BC99BD008DF191 /* newsfeed_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsfeed_types.h; sourceTree = "<group>"; };
+		E9B69E0319BC99BD008DF191 /* newsnntp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsnntp.h; sourceTree = "<group>"; };
+		E9B69E0419BC99BD008DF191 /* newsnntp_socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsnntp_socket.h; sourceTree = "<group>"; };
+		E9B69E0519BC99BE008DF191 /* newsnntp_ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsnntp_ssl.h; sourceTree = "<group>"; };
+		E9B69E0619BC99BE008DF191 /* newsnntp_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsnntp_types.h; sourceTree = "<group>"; };
+		E9B69E0719BC99BE008DF191 /* nntpdriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nntpdriver.h; sourceTree = "<group>"; };
+		E9B69E0819BC99BE008DF191 /* nntpdriver_cached.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nntpdriver_cached.h; sourceTree = "<group>"; };
+		E9B69E0919BC99BE008DF191 /* nntpdriver_cached_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nntpdriver_cached_message.h; sourceTree = "<group>"; };
+		E9B69E0A19BC99BE008DF191 /* nntpdriver_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nntpdriver_message.h; sourceTree = "<group>"; };
+		E9B69E0B19BC99BE008DF191 /* nntpdriver_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nntpdriver_types.h; sourceTree = "<group>"; };
+		E9B69E0C19BC99BE008DF191 /* nntpstorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nntpstorage.h; sourceTree = "<group>"; };
+		E9B69E0D19BC99BE008DF191 /* pop3driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pop3driver.h; sourceTree = "<group>"; };
+		E9B69E0E19BC99BE008DF191 /* pop3driver_cached.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pop3driver_cached.h; sourceTree = "<group>"; };
+		E9B69E0F19BC99BE008DF191 /* pop3driver_cached_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pop3driver_cached_message.h; sourceTree = "<group>"; };
+		E9B69E1019BC99BE008DF191 /* pop3driver_message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pop3driver_message.h; sourceTree = "<group>"; };
+		E9B69E1119BC99BE008DF191 /* pop3driver_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pop3driver_types.h; sourceTree = "<group>"; };
+		E9B69E1219BC99BE008DF191 /* pop3storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pop3storage.h; sourceTree = "<group>"; };
+		E9B69E1319BC99BE008DF191 /* qresync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qresync.h; sourceTree = "<group>"; };
+		E9B69E1419BC99BE008DF191 /* qresync_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qresync_types.h; sourceTree = "<group>"; };
+		E9B69E1519BC99BE008DF191 /* quota.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quota.h; sourceTree = "<group>"; };
+		E9B69E1619BC99BE008DF191 /* quota_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quota_parser.h; sourceTree = "<group>"; };
+		E9B69E1719BC99BE008DF191 /* quota_sender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quota_sender.h; sourceTree = "<group>"; };
+		E9B69E1819BC99BE008DF191 /* quota_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quota_types.h; sourceTree = "<group>"; };
+		E9B69E1919BC99BE008DF191 /* uidplus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uidplus.h; sourceTree = "<group>"; };
+		E9B69E1A19BC99BE008DF191 /* uidplus_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uidplus_types.h; sourceTree = "<group>"; };
+		E9B69E1B19BC99BE008DF191 /* xgmlabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xgmlabels.h; sourceTree = "<group>"; };
+		E9B69E1C19BC99BE008DF191 /* xgmmsgid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xgmmsgid.h; sourceTree = "<group>"; };
+		E9B69E1D19BC99BE008DF191 /* xgmthrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xgmthrid.h; sourceTree = "<group>"; };
+		E9B69E1E19BC99BE008DF191 /* xlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlist.h; sourceTree = "<group>"; };
+		E9B69E2019BC99BE008DF191 /* libetpan-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libetpan-ios.a"; sourceTree = "<group>"; };
+		E9B69E2419BC99BE008DF191 /* exits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exits.h; sourceTree = "<group>"; };
+		E9B69E2519BC99BE008DF191 /* gai.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gai.h; sourceTree = "<group>"; };
+		E9B69E2619BC99BE008DF191 /* hmac-md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "hmac-md5.h"; sourceTree = "<group>"; };
+		E9B69E2719BC99BE008DF191 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		E9B69E2819BC99BE008DF191 /* prop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prop.h; sourceTree = "<group>"; };
+		E9B69E2919BC99BE008DF191 /* sasl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sasl.h; sourceTree = "<group>"; };
+		E9B69E2A19BC99BE008DF191 /* saslplug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = saslplug.h; sourceTree = "<group>"; };
+		E9B69E2B19BC99BE008DF191 /* saslutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = saslutil.h; sourceTree = "<group>"; };
+		E9B69E2D19BC99BE008DF191 /* libsasl2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsasl2.a; sourceTree = "<group>"; };
+		E9B69E2F19BC99BE008DF191 /* libanonymous.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libanonymous.a; sourceTree = "<group>"; };
+		E9B69E3019BC99BE008DF191 /* libcrammd5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrammd5.a; sourceTree = "<group>"; };
+		E9B69E3119BC99BE008DF191 /* liblogin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblogin.a; sourceTree = "<group>"; };
+		E9B69E3219BC99BE008DF191 /* libplain.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libplain.a; sourceTree = "<group>"; };
+		E9B69E3319BC99BE008DF191 /* libsasldb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsasldb.a; sourceTree = "<group>"; };
+		E9B69E3719BC99BE008DF191 /* MailCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailCore.h; sourceTree = "<group>"; };
+		E9B69E3819BC99BE008DF191 /* MCAbstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAbstract.h; sourceTree = "<group>"; };
+		E9B69E3919BC99BE008DF191 /* MCAbstractMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAbstractMessage.h; sourceTree = "<group>"; };
+		E9B69E3A19BC99BE008DF191 /* MCAbstractMessagePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAbstractMessagePart.h; sourceTree = "<group>"; };
+		E9B69E3B19BC99BE008DF191 /* MCAbstractMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAbstractMultipart.h; sourceTree = "<group>"; };
+		E9B69E3C19BC99BE008DF191 /* MCAbstractPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAbstractPart.h; sourceTree = "<group>"; };
+		E9B69E3D19BC99BE008DF191 /* MCAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAddress.h; sourceTree = "<group>"; };
+		E9B69E3E19BC99BE008DF191 /* MCAddressDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAddressDisplay.h; sourceTree = "<group>"; };
+		E9B69E3F19BC99BE008DF191 /* MCArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCArray.h; sourceTree = "<group>"; };
+		E9B69E4019BC99BE008DF191 /* MCAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAssert.h; sourceTree = "<group>"; };
+		E9B69E4119BC99BE008DF191 /* MCAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAsync.h; sourceTree = "<group>"; };
+		E9B69E4219BC99BE008DF191 /* MCAsyncIMAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAsyncIMAP.h; sourceTree = "<group>"; };
+		E9B69E4319BC99BE008DF191 /* MCAsyncNNTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAsyncNNTP.h; sourceTree = "<group>"; };
+		E9B69E4419BC99BE008DF191 /* MCAsyncPOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAsyncPOP.h; sourceTree = "<group>"; };
+		E9B69E4519BC99BE008DF191 /* MCAsyncSMTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAsyncSMTP.h; sourceTree = "<group>"; };
+		E9B69E4619BC99BE008DF191 /* MCAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAttachment.h; sourceTree = "<group>"; };
+		E9B69E4719BC99BE008DF191 /* MCAutoreleasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAutoreleasePool.h; sourceTree = "<group>"; };
+		E9B69E4819BC99BE008DF191 /* MCBaseTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBaseTypes.h; sourceTree = "<group>"; };
+		E9B69E4919BC99BE008DF191 /* MCConnectionLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCConnectionLogger.h; sourceTree = "<group>"; };
+		E9B69E4A19BC99BE008DF191 /* MCCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCore.h; sourceTree = "<group>"; };
+		E9B69E4B19BC99BE008DF191 /* MCData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCData.h; sourceTree = "<group>"; };
+		E9B69E4C19BC99BE008DF191 /* MCDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDateFormatter.h; sourceTree = "<group>"; };
+		E9B69E4D19BC99BE008DF191 /* MCHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCHash.h; sourceTree = "<group>"; };
+		E9B69E4E19BC99BE008DF191 /* MCHashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCHashMap.h; sourceTree = "<group>"; };
+		E9B69E4F19BC99BE008DF191 /* MCHTMLRendererCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCHTMLRendererCallback.h; sourceTree = "<group>"; };
+		E9B69E5019BC99BE008DF191 /* MCICUTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCICUTypes.h; sourceTree = "<group>"; };
+		E9B69E5119BC99BE008DF191 /* MCIMAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAP.h; sourceTree = "<group>"; };
+		E9B69E5219BC99BE008DF191 /* MCIMAPAppendMessageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPAppendMessageOperation.h; sourceTree = "<group>"; };
+		E9B69E5319BC99BE008DF191 /* MCIMAPAsyncSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPAsyncSession.h; sourceTree = "<group>"; };
+		E9B69E5419BC99BE008DF191 /* MCIMAPCapabilityOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPCapabilityOperation.h; sourceTree = "<group>"; };
+		E9B69E5519BC99BE008DF191 /* MCIMAPConnectOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPConnectOperation.h; sourceTree = "<group>"; };
+		E9B69E5619BC99BE008DF191 /* MCIMAPCopyMessagesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPCopyMessagesOperation.h; sourceTree = "<group>"; };
+		E9B69E5719BC99BE008DF191 /* MCIMAPFetchContentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFetchContentOperation.h; sourceTree = "<group>"; };
+		E9B69E5819BC99BE008DF191 /* MCIMAPFetchFoldersOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFetchFoldersOperation.h; sourceTree = "<group>"; };
+		E9B69E5919BC99BE008DF191 /* MCIMAPFetchMessagesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFetchMessagesOperation.h; sourceTree = "<group>"; };
+		E9B69E5A19BC99BE008DF191 /* MCIMAPFetchNamespaceOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFetchNamespaceOperation.h; sourceTree = "<group>"; };
+		E9B69E5B19BC99BE008DF191 /* MCIMAPFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFolder.h; sourceTree = "<group>"; };
+		E9B69E5C19BC99BE008DF191 /* MCIMAPFolderInfoOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFolderInfoOperation.h; sourceTree = "<group>"; };
+		E9B69E5D19BC99BE008DF191 /* MCIMAPFolderStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFolderStatus.h; sourceTree = "<group>"; };
+		E9B69E5E19BC99BE008DF191 /* MCIMAPFolderStatusOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPFolderStatusOperation.h; sourceTree = "<group>"; };
+		E9B69E5F19BC99BE008DF191 /* MCIMAPIdentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPIdentity.h; sourceTree = "<group>"; };
+		E9B69E6019BC99BE008DF191 /* MCIMAPIdentityOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPIdentityOperation.h; sourceTree = "<group>"; };
+		E9B69E6119BC99BE008DF191 /* MCIMAPIdleOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPIdleOperation.h; sourceTree = "<group>"; };
+		E9B69E6219BC99BE008DF191 /* MCIMAPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPMessage.h; sourceTree = "<group>"; };
+		E9B69E6319BC99BE008DF191 /* MCIMAPMessagePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPMessagePart.h; sourceTree = "<group>"; };
+		E9B69E6419BC99BE008DF191 /* MCIMAPMessageRenderingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPMessageRenderingOperation.h; sourceTree = "<group>"; };
+		E9B69E6519BC99BE008DF191 /* MCIMAPMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPMultipart.h; sourceTree = "<group>"; };
+		E9B69E6619BC99BE008DF191 /* MCIMAPNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPNamespace.h; sourceTree = "<group>"; };
+		E9B69E6719BC99BE008DF191 /* MCIMAPNamespaceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPNamespaceItem.h; sourceTree = "<group>"; };
+		E9B69E6819BC99BE008DF191 /* MCIMAPNoopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPNoopOperation.h; sourceTree = "<group>"; };
+		E9B69E6919BC99BE008DF191 /* MCIMAPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPOperation.h; sourceTree = "<group>"; };
+		E9B69E6A19BC99BE008DF191 /* MCIMAPOperationCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPOperationCallback.h; sourceTree = "<group>"; };
+		E9B69E6B19BC99BE008DF191 /* MCIMAPPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPPart.h; sourceTree = "<group>"; };
+		E9B69E6C19BC99BE008DF191 /* MCIMAPProgressCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPProgressCallback.h; sourceTree = "<group>"; };
+		E9B69E6D19BC99BE008DF191 /* MCIMAPQuotaOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPQuotaOperation.h; sourceTree = "<group>"; };
+		E9B69E6E19BC99BE008DF191 /* MCIMAPSearchExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPSearchExpression.h; sourceTree = "<group>"; };
+		E9B69E6F19BC99BE008DF191 /* MCIMAPSearchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPSearchOperation.h; sourceTree = "<group>"; };
+		E9B69E7019BC99BE008DF191 /* MCIMAPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPSession.h; sourceTree = "<group>"; };
+		E9B69E7119BC99BE008DF191 /* MCIMAPSyncResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIMAPSyncResult.h; sourceTree = "<group>"; };
+		E9B69E7219BC99BE008DF191 /* MCIndexSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIndexSet.h; sourceTree = "<group>"; };
+		E9B69E7319BC99BE008DF191 /* MCIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIterator.h; sourceTree = "<group>"; };
+		E9B69E7419BC99BE008DF191 /* MCJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSON.h; sourceTree = "<group>"; };
+		E9B69E7519BC99BE008DF191 /* MCLibetpanTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLibetpanTypes.h; sourceTree = "<group>"; };
+		E9B69E7619BC99BE008DF191 /* MCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLog.h; sourceTree = "<group>"; };
+		E9B69E7719BC99BE008DF191 /* MCMailProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMailProvider.h; sourceTree = "<group>"; };
+		E9B69E7819BC99BE008DF191 /* MCMailProvidersManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMailProvidersManager.h; sourceTree = "<group>"; };
+		E9B69E7919BC99BE008DF191 /* MCMainThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMainThread.h; sourceTree = "<group>"; };
+		E9B69E7A19BC99BE008DF191 /* MCMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMD5.h; sourceTree = "<group>"; };
+		E9B69E7B19BC99BE008DF191 /* MCMessageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMessageBuilder.h; sourceTree = "<group>"; };
+		E9B69E7C19BC99BE008DF191 /* MCMessageConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMessageConstants.h; sourceTree = "<group>"; };
+		E9B69E7D19BC99BE008DF191 /* MCMessageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMessageHeader.h; sourceTree = "<group>"; };
+		E9B69E7E19BC99BE008DF191 /* MCMessageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMessageParser.h; sourceTree = "<group>"; };
+		E9B69E7F19BC99BE008DF191 /* MCMessagePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMessagePart.h; sourceTree = "<group>"; };
+		E9B69E8019BC99BE008DF191 /* MCMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMultipart.h; sourceTree = "<group>"; };
+		E9B69E8119BC99BE008DF191 /* MCNetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNetService.h; sourceTree = "<group>"; };
+		E9B69E8219BC99BE008DF191 /* MCNNTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTP.h; sourceTree = "<group>"; };
+		E9B69E8319BC99BE008DF191 /* MCNNTPAsyncSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPAsyncSession.h; sourceTree = "<group>"; };
+		E9B69E8419BC99BE008DF191 /* MCNNTPCheckAccountOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPCheckAccountOperation.h; sourceTree = "<group>"; };
+		E9B69E8519BC99BE008DF191 /* MCNNTPFetchArticleOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPFetchArticleOperation.h; sourceTree = "<group>"; };
+		E9B69E8619BC99BE008DF191 /* MCNNTPFetchArticlesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPFetchArticlesOperation.h; sourceTree = "<group>"; };
+		E9B69E8719BC99BE008DF191 /* MCNNTPFetchHeaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPFetchHeaderOperation.h; sourceTree = "<group>"; };
+		E9B69E8819BC99BE008DF191 /* MCNNTPGroupInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPGroupInfo.h; sourceTree = "<group>"; };
+		E9B69E8919BC99BE008DF191 /* MCNNTPListNewsgroupsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPListNewsgroupsOperation.h; sourceTree = "<group>"; };
+		E9B69E8A19BC99BE008DF191 /* MCNNTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPOperation.h; sourceTree = "<group>"; };
+		E9B69E8B19BC99BE008DF191 /* MCNNTPOperationCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPOperationCallback.h; sourceTree = "<group>"; };
+		E9B69E8C19BC99BE008DF191 /* MCNNTPProgressCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPProgressCallback.h; sourceTree = "<group>"; };
+		E9B69E8D19BC99BE008DF191 /* MCNNTPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNNTPSession.h; sourceTree = "<group>"; };
+		E9B69E8E19BC99BE008DF191 /* MCNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNull.h; sourceTree = "<group>"; };
+		E9B69E8F19BC99BE008DF191 /* MCOAbstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOAbstract.h; sourceTree = "<group>"; };
+		E9B69E9019BC99BE008DF191 /* MCOAbstractMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOAbstractMessage.h; sourceTree = "<group>"; };
+		E9B69E9119BC99BE008DF191 /* MCOAbstractMessagePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOAbstractMessagePart.h; sourceTree = "<group>"; };
+		E9B69E9219BC99BE008DF191 /* MCOAbstractMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOAbstractMultipart.h; sourceTree = "<group>"; };
+		E9B69E9319BC99BE008DF191 /* MCOAbstractPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOAbstractPart.h; sourceTree = "<group>"; };
+		E9B69E9419BC99BE008DF191 /* MCOAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOAddress.h; sourceTree = "<group>"; };
+		E9B69E9519BC99BE008DF191 /* MCOAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOAttachment.h; sourceTree = "<group>"; };
+		E9B69E9619BC99BE008DF191 /* MCObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCObjC.h; sourceTree = "<group>"; };
+		E9B69E9719BC99BE008DF191 /* MCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCObject.h; sourceTree = "<group>"; };
+		E9B69E9819BC99BE008DF191 /* MCOConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOConstants.h; sourceTree = "<group>"; };
+		E9B69E9919BC99BE008DF191 /* MCOHTMLRendererDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOHTMLRendererDelegate.h; sourceTree = "<group>"; };
+		E9B69E9A19BC99BE008DF191 /* MCOHTMLRendererIMAPDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOHTMLRendererIMAPDelegate.h; sourceTree = "<group>"; };
+		E9B69E9B19BC99BE008DF191 /* MCOIMAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAP.h; sourceTree = "<group>"; };
+		E9B69E9C19BC99BE008DF191 /* MCOIMAPAppendMessageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPAppendMessageOperation.h; sourceTree = "<group>"; };
+		E9B69E9D19BC99BE008DF191 /* MCOIMAPBaseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPBaseOperation.h; sourceTree = "<group>"; };
+		E9B69E9E19BC99BE008DF191 /* MCOIMAPCapabilityOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPCapabilityOperation.h; sourceTree = "<group>"; };
+		E9B69E9F19BC99BE008DF191 /* MCOIMAPCopyMessagesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPCopyMessagesOperation.h; sourceTree = "<group>"; };
+		E9B69EA019BC99BE008DF191 /* MCOIMAPFetchContentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFetchContentOperation.h; sourceTree = "<group>"; };
+		E9B69EA119BC99BE008DF191 /* MCOIMAPFetchFoldersOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFetchFoldersOperation.h; sourceTree = "<group>"; };
+		E9B69EA219BC99BE008DF191 /* MCOIMAPFetchMessagesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFetchMessagesOperation.h; sourceTree = "<group>"; };
+		E9B69EA319BC99BE008DF191 /* MCOIMAPFetchNamespaceOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFetchNamespaceOperation.h; sourceTree = "<group>"; };
+		E9B69EA419BC99BE008DF191 /* MCOIMAPFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFolder.h; sourceTree = "<group>"; };
+		E9B69EA519BC99BE008DF191 /* MCOIMAPFolderInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFolderInfo.h; sourceTree = "<group>"; };
+		E9B69EA619BC99BE008DF191 /* MCOIMAPFolderInfoOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFolderInfoOperation.h; sourceTree = "<group>"; };
+		E9B69EA719BC99BE008DF191 /* MCOIMAPFolderStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFolderStatus.h; sourceTree = "<group>"; };
+		E9B69EA819BC99BE008DF191 /* MCOIMAPFolderStatusOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPFolderStatusOperation.h; sourceTree = "<group>"; };
+		E9B69EA919BC99BE008DF191 /* MCOIMAPIdentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPIdentity.h; sourceTree = "<group>"; };
+		E9B69EAA19BC99BE008DF191 /* MCOIMAPIdentityOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPIdentityOperation.h; sourceTree = "<group>"; };
+		E9B69EAB19BC99BE008DF191 /* MCOIMAPIdleOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPIdleOperation.h; sourceTree = "<group>"; };
+		E9B69EAC19BC99BE008DF191 /* MCOIMAPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPMessage.h; sourceTree = "<group>"; };
+		E9B69EAD19BC99BE008DF191 /* MCOIMAPMessagePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPMessagePart.h; sourceTree = "<group>"; };
+		E9B69EAE19BC99BE008DF191 /* MCOIMAPMessageRenderingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPMessageRenderingOperation.h; sourceTree = "<group>"; };
+		E9B69EAF19BC99BE008DF191 /* MCOIMAPMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPMultipart.h; sourceTree = "<group>"; };
+		E9B69EB019BC99BE008DF191 /* MCOIMAPNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPNamespace.h; sourceTree = "<group>"; };
+		E9B69EB119BC99BE008DF191 /* MCOIMAPNamespaceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPNamespaceItem.h; sourceTree = "<group>"; };
+		E9B69EB219BC99BE008DF191 /* MCOIMAPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPOperation.h; sourceTree = "<group>"; };
+		E9B69EB319BC99BE008DF191 /* MCOIMAPPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPPart.h; sourceTree = "<group>"; };
+		E9B69EB419BC99BE008DF191 /* MCOIMAPQuotaOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPQuotaOperation.h; sourceTree = "<group>"; };
+		E9B69EB519BC99BE008DF191 /* MCOIMAPSearchExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPSearchExpression.h; sourceTree = "<group>"; };
+		E9B69EB619BC99BE008DF191 /* MCOIMAPSearchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPSearchOperation.h; sourceTree = "<group>"; };
+		E9B69EB719BC99BE008DF191 /* MCOIMAPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIMAPSession.h; sourceTree = "<group>"; };
+		E9B69EB819BC99BE008DF191 /* MCOIndexSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOIndexSet.h; sourceTree = "<group>"; };
+		E9B69EB919BC99BE008DF191 /* MCOMailProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOMailProvider.h; sourceTree = "<group>"; };
+		E9B69EBA19BC99BE008DF191 /* MCOMailProvidersManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOMailProvidersManager.h; sourceTree = "<group>"; };
+		E9B69EBB19BC99BE008DF191 /* MCOMessageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOMessageBuilder.h; sourceTree = "<group>"; };
+		E9B69EBC19BC99BE008DF191 /* MCOMessageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOMessageHeader.h; sourceTree = "<group>"; };
+		E9B69EBD19BC99BE008DF191 /* MCOMessageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOMessageParser.h; sourceTree = "<group>"; };
+		E9B69EBE19BC99BE008DF191 /* MCOMessagePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOMessagePart.h; sourceTree = "<group>"; };
+		E9B69EBF19BC99BE008DF191 /* MCOMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOMultipart.h; sourceTree = "<group>"; };
+		E9B69EC019BC99BE008DF191 /* MCONetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONetService.h; sourceTree = "<group>"; };
+		E9B69EC119BC99BE008DF191 /* MCONNTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTP.h; sourceTree = "<group>"; };
+		E9B69EC219BC99BE008DF191 /* MCONNTPDisconnectOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPDisconnectOperation.h; sourceTree = "<group>"; };
+		E9B69EC319BC99BE008DF191 /* MCONNTPFetchArticleOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPFetchArticleOperation.h; sourceTree = "<group>"; };
+		E9B69EC419BC99BE008DF191 /* MCONNTPFetchArticlesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPFetchArticlesOperation.h; sourceTree = "<group>"; };
+		E9B69EC519BC99BE008DF191 /* MCONNTPFetchHeaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPFetchHeaderOperation.h; sourceTree = "<group>"; };
+		E9B69EC619BC99BE008DF191 /* MCONNTPGroupInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPGroupInfo.h; sourceTree = "<group>"; };
+		E9B69EC719BC99BE008DF191 /* MCONNTPListNewsgroupsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPListNewsgroupsOperation.h; sourceTree = "<group>"; };
+		E9B69EC819BC99BE008DF191 /* MCONNTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPOperation.h; sourceTree = "<group>"; };
+		E9B69EC919BC99BE008DF191 /* MCONNTPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCONNTPSession.h; sourceTree = "<group>"; };
+		E9B69ECA19BC99BE008DF191 /* MCOObjectWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOObjectWrapper.h; sourceTree = "<group>"; };
+		E9B69ECB19BC99BE008DF191 /* MCOOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOOperation.h; sourceTree = "<group>"; };
+		E9B69ECC19BC99BE008DF191 /* MCOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOperation.h; sourceTree = "<group>"; };
+		E9B69ECD19BC99BE008DF191 /* MCOperationCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOperationCallback.h; sourceTree = "<group>"; };
+		E9B69ECE19BC99BE008DF191 /* MCOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOperationQueue.h; sourceTree = "<group>"; };
+		E9B69ECF19BC99BE008DF191 /* MCOPOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOPOP.h; sourceTree = "<group>"; };
+		E9B69ED019BC99BE008DF191 /* MCOPOPFetchHeaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOPOPFetchHeaderOperation.h; sourceTree = "<group>"; };
+		E9B69ED119BC99BE008DF191 /* MCOPOPFetchMessageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOPOPFetchMessageOperation.h; sourceTree = "<group>"; };
+		E9B69ED219BC99BE008DF191 /* MCOPOPFetchMessagesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOPOPFetchMessagesOperation.h; sourceTree = "<group>"; };
+		E9B69ED319BC99BE008DF191 /* MCOPOPMessageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOPOPMessageInfo.h; sourceTree = "<group>"; };
+		E9B69ED419BC99BE008DF191 /* MCOPOPNoopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOPOPNoopOperation.h; sourceTree = "<group>"; };
+		E9B69ED519BC99BE008DF191 /* MCOPOPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOPOPOperation.h; sourceTree = "<group>"; };
+		E9B69ED619BC99BE008DF191 /* MCOPOPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOPOPSession.h; sourceTree = "<group>"; };
+		E9B69ED719BC99BE008DF191 /* MCOProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOProvider.h; sourceTree = "<group>"; };
+		E9B69ED819BC99BE008DF191 /* MCORange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCORange.h; sourceTree = "<group>"; };
+		E9B69ED919BC99BE008DF191 /* MCORFC822.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCORFC822.h; sourceTree = "<group>"; };
+		E9B69EDA19BC99BE008DF191 /* MCOSMTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOSMTP.h; sourceTree = "<group>"; };
+		E9B69EDB19BC99BE008DF191 /* MCOSMTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOSMTPOperation.h; sourceTree = "<group>"; };
+		E9B69EDC19BC99BE008DF191 /* MCOSMTPSendOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOSMTPSendOperation.h; sourceTree = "<group>"; };
+		E9B69EDD19BC99BE008DF191 /* MCOSMTPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOSMTPSession.h; sourceTree = "<group>"; };
+		E9B69EDE19BC99BE008DF191 /* MCOUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCOUtils.h; sourceTree = "<group>"; };
+		E9B69EDF19BC99BE008DF191 /* MCPOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOP.h; sourceTree = "<group>"; };
+		E9B69EE019BC99BE008DF191 /* MCPOPAsyncSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPAsyncSession.h; sourceTree = "<group>"; };
+		E9B69EE119BC99BE008DF191 /* MCPOPFetchHeaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPFetchHeaderOperation.h; sourceTree = "<group>"; };
+		E9B69EE219BC99BE008DF191 /* MCPOPFetchMessageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPFetchMessageOperation.h; sourceTree = "<group>"; };
+		E9B69EE319BC99BE008DF191 /* MCPOPFetchMessagesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPFetchMessagesOperation.h; sourceTree = "<group>"; };
+		E9B69EE419BC99BE008DF191 /* MCPOPMessageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPMessageInfo.h; sourceTree = "<group>"; };
+		E9B69EE519BC99BE008DF191 /* MCPOPNoopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPNoopOperation.h; sourceTree = "<group>"; };
+		E9B69EE619BC99BE008DF191 /* MCPOPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPOperation.h; sourceTree = "<group>"; };
+		E9B69EE719BC99BE008DF191 /* MCPOPOperationCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPOperationCallback.h; sourceTree = "<group>"; };
+		E9B69EE819BC99BE008DF191 /* MCPOPProgressCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPProgressCallback.h; sourceTree = "<group>"; };
+		E9B69EE919BC99BE008DF191 /* MCPOPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPOPSession.h; sourceTree = "<group>"; };
+		E9B69EEA19BC99BE008DF191 /* MCProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCProvider.h; sourceTree = "<group>"; };
+		E9B69EEB19BC99BE008DF191 /* MCRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRange.h; sourceTree = "<group>"; };
+		E9B69EEC19BC99BE008DF191 /* MCRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRenderer.h; sourceTree = "<group>"; };
+		E9B69EED19BC99BE008DF191 /* MCRFC822.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRFC822.h; sourceTree = "<group>"; };
+		E9B69EEE19BC99BE008DF191 /* MCSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSet.h; sourceTree = "<group>"; };
+		E9B69EEF19BC99BE008DF191 /* MCSizeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSizeFormatter.h; sourceTree = "<group>"; };
+		E9B69EF019BC99BE008DF191 /* MCSMTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMTP.h; sourceTree = "<group>"; };
+		E9B69EF119BC99BE008DF191 /* MCSMTPAsyncSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMTPAsyncSession.h; sourceTree = "<group>"; };
+		E9B69EF219BC99BE008DF191 /* MCSMTPNoopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMTPNoopOperation.h; sourceTree = "<group>"; };
+		E9B69EF319BC99BE008DF191 /* MCSMTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMTPOperation.h; sourceTree = "<group>"; };
+		E9B69EF419BC99BE008DF191 /* MCSMTPOperationCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMTPOperationCallback.h; sourceTree = "<group>"; };
+		E9B69EF519BC99BE008DF191 /* MCSMTPProgressCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMTPProgressCallback.h; sourceTree = "<group>"; };
+		E9B69EF619BC99BE008DF191 /* MCSMTPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSMTPSession.h; sourceTree = "<group>"; };
+		E9B69EF719BC99BE008DF191 /* MCString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCString.h; sourceTree = "<group>"; };
+		E9B69EF819BC99BE008DF191 /* MCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCUtils.h; sourceTree = "<group>"; };
+		E9B69EF919BC99BE008DF191 /* MCValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCValue.h; sourceTree = "<group>"; };
+		E9B69EFA19BC99BE008DF191 /* NSArray+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MCO.h"; sourceTree = "<group>"; };
+		E9B69EFB19BC99BE008DF191 /* NSData+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MCO.h"; sourceTree = "<group>"; };
+		E9B69EFC19BC99BE008DF191 /* NSDictionary+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MCO.h"; sourceTree = "<group>"; };
+		E9B69EFD19BC99BE008DF191 /* NSError+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+MCO.h"; sourceTree = "<group>"; };
+		E9B69EFE19BC99BE008DF191 /* NSIndexSet+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+MCO.h"; sourceTree = "<group>"; };
+		E9B69EFF19BC99BE008DF191 /* NSObject+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MCO.h"; sourceTree = "<group>"; };
+		E9B69F0019BC99BE008DF191 /* NSString+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MCO.h"; sourceTree = "<group>"; };
+		E9B69F0119BC99BE008DF191 /* NSValue+MCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+MCO.h"; sourceTree = "<group>"; };
+		E9B69F0319BC99BE008DF191 /* libMailCore-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libMailCore-ios.a"; sourceTree = "<group>"; };
+		E9B69F0719BC99BE008DF191 /* buffio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffio.h; sourceTree = "<group>"; };
+		E9B69F0819BC99BE008DF191 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		E9B69F0919BC99BE008DF191 /* tidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tidy.h; sourceTree = "<group>"; };
+		E9B69F0A19BC99BE008DF191 /* tidyenum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tidyenum.h; sourceTree = "<group>"; };
+		E9B69F0C19BC99BE008DF191 /* libtidy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtidy.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +685,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B69F1019BC99BE008DF191 /* libicuio.a in Frameworks */,
+				E9B69B0219BC87F5008DF191 /* Security.framework in Frameworks */,
+				E9B69F1619BC99BE008DF191 /* libetpan-ios.a in Frameworks */,
+				E9B69B0019BC87F0008DF191 /* CFNetwork.framework in Frameworks */,
 				E9287B4C19BC461600DE4137 /* CoreGraphics.framework in Frameworks */,
+				E9B69F1719BC99BE008DF191 /* libsasl2.a in Frameworks */,
+				E9B69F1419BC99BE008DF191 /* libicutu.a in Frameworks */,
+				E9B69F1C19BC99BE008DF191 /* libsasldb.a in Frameworks */,
+				E9B69F1A19BC99BE008DF191 /* liblogin.a in Frameworks */,
+				E9B69F1D19BC99BE008DF191 /* libMailCore-ios.a in Frameworks */,
+				E9B69F1919BC99BE008DF191 /* libcrammd5.a in Frameworks */,
+				E9B69F1519BC99BE008DF191 /* libicuuc.a in Frameworks */,
+				E9B69F0F19BC99BE008DF191 /* libicui18n.a in Frameworks */,
+				E9B69F0D19BC99BE008DF191 /* libctemplate-ios.a in Frameworks */,
+				E9B69F1119BC99BE008DF191 /* libicule.a in Frameworks */,
+				E9B69F1819BC99BE008DF191 /* libanonymous.a in Frameworks */,
+				E9B69F0E19BC99BE008DF191 /* libicudata.a in Frameworks */,
+				E9B69F1E19BC99BE008DF191 /* libtidy.a in Frameworks */,
 				E9287B4E19BC461600DE4137 /* UIKit.framework in Frameworks */,
+				E9B69F1B19BC99BE008DF191 /* libplain.a in Frameworks */,
 				E9287B4A19BC461600DE4137 /* Foundation.framework in Frameworks */,
+				E9B69F1219BC99BE008DF191 /* libiculx.a in Frameworks */,
+				E9B69F1319BC99BE008DF191 /* libicutest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +746,8 @@
 		E9287B4819BC461600DE4137 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E9B69B0119BC87F5008DF191 /* Security.framework */,
+				E9B69AFF19BC87F0008DF191 /* CFNetwork.framework */,
 				E9287B4919BC461600DE4137 /* Foundation.framework */,
 				E9287B4B19BC461600DE4137 /* CoreGraphics.framework */,
 				E9287B4D19BC461600DE4137 /* UIKit.framework */,
@@ -117,6 +759,8 @@
 		E9287B4F19BC461600DE4137 /* MailClient */ = {
 			isa = PBXGroup;
 			children = (
+				E9B5DD8B19BCDA820022EAB7 /* MCResources */,
+				E9B69B0319BC8967008DF191 /* libs */,
 				E9287B7E19BC498100DE4137 /* Classes */,
 				E9287B5819BC461600DE4137 /* MCAppDelegate.h */,
 				E9287B5919BC461600DE4137 /* MCAppDelegate.m */,
@@ -159,8 +803,11 @@
 		E9287B7E19BC498100DE4137 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E9287B9219BC567B00DE4137 /* MCResources */,
+				E9B5DD8119BCD78D0022EAB7 /* MCDetail */,
+				E9B5DD7919BCD5930022EAB7 /* MCMailsPreviewTable */,
 				E9287B7F19BC498100DE4137 /* MCEnterEmail */,
+				E9B69BD619BC8ABC008DF191 /* MCConstants.h */,
+				E9B69BD719BC8ADD008DF191 /* MCSegueId.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -174,6 +821,843 @@
 				E9287B8619BC49BE00DE4137 /* MCEnterEmailView.m */,
 			);
 			path = MCEnterEmail;
+			sourceTree = "<group>";
+		};
+		E9B5DD7919BCD5930022EAB7 /* MCMailsPreviewTable */ = {
+			isa = PBXGroup;
+			children = (
+				E9B5DD7A19BCD5930022EAB7 /* MCMailPreviewCell */,
+				E9B5DD7E19BCD5F20022EAB7 /* MCMailPreviewTableViewController.h */,
+				E9B5DD7F19BCD5F20022EAB7 /* MCMailPreviewTableViewController.m */,
+			);
+			path = MCMailsPreviewTable;
+			sourceTree = "<group>";
+		};
+		E9B5DD7A19BCD5930022EAB7 /* MCMailPreviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E9B5DD7B19BCD5930022EAB7 /* MCMailPreviewCell.h */,
+				E9B5DD7C19BCD5930022EAB7 /* MCMailPreviewCell.m */,
+			);
+			path = MCMailPreviewCell;
+			sourceTree = "<group>";
+		};
+		E9B5DD8119BCD78D0022EAB7 /* MCDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E9B5DD8519BCD7C60022EAB7 /* MCDetailMailView.h */,
+				E9B5DD8619BCD7C60022EAB7 /* MCDetailMailView.m */,
+				E9B5DD8819BCD7F70022EAB7 /* MCDetailMailViewController.h */,
+				E9B5DD8919BCD7F70022EAB7 /* MCDetailMailViewController.m */,
+			);
+			path = MCDetail;
+			sourceTree = "<group>";
+		};
+		E9B5DD8B19BCDA820022EAB7 /* MCResources */ = {
+			isa = PBXGroup;
+			children = (
+				E9B5DD8C19BCDA820022EAB7 /* darkArrow.png */,
+			);
+			path = MCResources;
+			sourceTree = "<group>";
+		};
+		E9B69B0319BC8967008DF191 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69CAB19BC99BD008DF191 /* ctemplate-ios */,
+				E9B69CBD19BC99BD008DF191 /* icu4c-ios */,
+				E9B69D7919BC99BD008DF191 /* libetpan-ios */,
+				E9B69E2119BC99BE008DF191 /* libsasl-ios */,
+				E9B69E3419BC99BE008DF191 /* mailcore2-ios */,
+				E9B69F0419BC99BE008DF191 /* tidy-html5-ios */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		E9B69CAB19BC99BD008DF191 /* ctemplate-ios */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69CAC19BC99BD008DF191 /* include */,
+				E9B69CBB19BC99BD008DF191 /* lib */,
+			);
+			path = "ctemplate-ios";
+			sourceTree = "<group>";
+		};
+		E9B69CAC19BC99BD008DF191 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69CAD19BC99BD008DF191 /* ctemplate */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E9B69CAD19BC99BD008DF191 /* ctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69CAE19BC99BD008DF191 /* per_expand_data.h */,
+				E9B69CAF19BC99BD008DF191 /* str_ref.h */,
+				E9B69CB019BC99BD008DF191 /* template.h */,
+				E9B69CB119BC99BD008DF191 /* template_annotator.h */,
+				E9B69CB219BC99BD008DF191 /* template_cache.h */,
+				E9B69CB319BC99BD008DF191 /* template_dictionary.h */,
+				E9B69CB419BC99BD008DF191 /* template_dictionary_interface.h */,
+				E9B69CB519BC99BD008DF191 /* template_emitter.h */,
+				E9B69CB619BC99BD008DF191 /* template_enums.h */,
+				E9B69CB719BC99BD008DF191 /* template_modifiers.h */,
+				E9B69CB819BC99BD008DF191 /* template_namelist.h */,
+				E9B69CB919BC99BD008DF191 /* template_pathops.h */,
+				E9B69CBA19BC99BD008DF191 /* template_string.h */,
+			);
+			path = ctemplate;
+			sourceTree = "<group>";
+		};
+		E9B69CBB19BC99BD008DF191 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69CBC19BC99BD008DF191 /* libctemplate-ios.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		E9B69CBD19BC99BD008DF191 /* icu4c-ios */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69CBE19BC99BD008DF191 /* include */,
+				E9B69D7019BC99BD008DF191 /* lib */,
+			);
+			path = "icu4c-ios";
+			sourceTree = "<group>";
+		};
+		E9B69CBE19BC99BD008DF191 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69CBF19BC99BD008DF191 /* layout */,
+				E9B69CCE19BC99BD008DF191 /* unicode */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E9B69CBF19BC99BD008DF191 /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69CC019BC99BD008DF191 /* LayoutEngine.h */,
+				E9B69CC119BC99BD008DF191 /* LEFontInstance.h */,
+				E9B69CC219BC99BD008DF191 /* LEGlyphFilter.h */,
+				E9B69CC319BC99BD008DF191 /* LEGlyphStorage.h */,
+				E9B69CC419BC99BD008DF191 /* LEInsertionList.h */,
+				E9B69CC519BC99BD008DF191 /* LELanguages.h */,
+				E9B69CC619BC99BD008DF191 /* LEScripts.h */,
+				E9B69CC719BC99BD008DF191 /* LESwaps.h */,
+				E9B69CC819BC99BD008DF191 /* LETypes.h */,
+				E9B69CC919BC99BD008DF191 /* loengine.h */,
+				E9B69CCA19BC99BD008DF191 /* ParagraphLayout.h */,
+				E9B69CCB19BC99BD008DF191 /* playout.h */,
+				E9B69CCC19BC99BD008DF191 /* plruns.h */,
+				E9B69CCD19BC99BD008DF191 /* RunArrays.h */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+		E9B69CCE19BC99BD008DF191 /* unicode */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69CCF19BC99BD008DF191 /* alphaindex.h */,
+				E9B69CD019BC99BD008DF191 /* appendable.h */,
+				E9B69CD119BC99BD008DF191 /* basictz.h */,
+				E9B69CD219BC99BD008DF191 /* brkiter.h */,
+				E9B69CD319BC99BD008DF191 /* bytestream.h */,
+				E9B69CD419BC99BD008DF191 /* bytestrie.h */,
+				E9B69CD519BC99BD008DF191 /* bytestriebuilder.h */,
+				E9B69CD619BC99BD008DF191 /* calendar.h */,
+				E9B69CD719BC99BD008DF191 /* caniter.h */,
+				E9B69CD819BC99BD008DF191 /* chariter.h */,
+				E9B69CD919BC99BD008DF191 /* choicfmt.h */,
+				E9B69CDA19BC99BD008DF191 /* coleitr.h */,
+				E9B69CDB19BC99BD008DF191 /* coll.h */,
+				E9B69CDC19BC99BD008DF191 /* compactdecimalformat.h */,
+				E9B69CDD19BC99BD008DF191 /* curramt.h */,
+				E9B69CDE19BC99BD008DF191 /* currpinf.h */,
+				E9B69CDF19BC99BD008DF191 /* currunit.h */,
+				E9B69CE019BC99BD008DF191 /* datefmt.h */,
+				E9B69CE119BC99BD008DF191 /* dbbi.h */,
+				E9B69CE219BC99BD008DF191 /* dcfmtsym.h */,
+				E9B69CE319BC99BD008DF191 /* decimfmt.h */,
+				E9B69CE419BC99BD008DF191 /* docmain.h */,
+				E9B69CE519BC99BD008DF191 /* dtfmtsym.h */,
+				E9B69CE619BC99BD008DF191 /* dtintrv.h */,
+				E9B69CE719BC99BD008DF191 /* dtitvfmt.h */,
+				E9B69CE819BC99BD008DF191 /* dtitvinf.h */,
+				E9B69CE919BC99BD008DF191 /* dtptngen.h */,
+				E9B69CEA19BC99BD008DF191 /* dtrule.h */,
+				E9B69CEB19BC99BD008DF191 /* enumset.h */,
+				E9B69CEC19BC99BD008DF191 /* errorcode.h */,
+				E9B69CED19BC99BD008DF191 /* fieldpos.h */,
+				E9B69CEE19BC99BD008DF191 /* fmtable.h */,
+				E9B69CEF19BC99BD008DF191 /* format.h */,
+				E9B69CF019BC99BD008DF191 /* fpositer.h */,
+				E9B69CF119BC99BD008DF191 /* gender.h */,
+				E9B69CF219BC99BD008DF191 /* gregocal.h */,
+				E9B69CF319BC99BD008DF191 /* icudataver.h */,
+				E9B69CF419BC99BD008DF191 /* icuplug.h */,
+				E9B69CF519BC99BD008DF191 /* idna.h */,
+				E9B69CF619BC99BD008DF191 /* listformatter.h */,
+				E9B69CF719BC99BD008DF191 /* localpointer.h */,
+				E9B69CF819BC99BD008DF191 /* locdspnm.h */,
+				E9B69CF919BC99BD008DF191 /* locid.h */,
+				E9B69CFA19BC99BD008DF191 /* measfmt.h */,
+				E9B69CFB19BC99BD008DF191 /* measunit.h */,
+				E9B69CFC19BC99BD008DF191 /* measure.h */,
+				E9B69CFD19BC99BD008DF191 /* messagepattern.h */,
+				E9B69CFE19BC99BD008DF191 /* msgfmt.h */,
+				E9B69CFF19BC99BD008DF191 /* normalizer2.h */,
+				E9B69D0019BC99BD008DF191 /* normlzr.h */,
+				E9B69D0119BC99BD008DF191 /* numfmt.h */,
+				E9B69D0219BC99BD008DF191 /* numsys.h */,
+				E9B69D0319BC99BD008DF191 /* parseerr.h */,
+				E9B69D0419BC99BD008DF191 /* parsepos.h */,
+				E9B69D0519BC99BD008DF191 /* platform.h */,
+				E9B69D0619BC99BD008DF191 /* plurfmt.h */,
+				E9B69D0719BC99BD008DF191 /* plurrule.h */,
+				E9B69D0819BC99BD008DF191 /* ptypes.h */,
+				E9B69D0919BC99BD008DF191 /* putil.h */,
+				E9B69D0A19BC99BD008DF191 /* rbbi.h */,
+				E9B69D0B19BC99BD008DF191 /* rbnf.h */,
+				E9B69D0C19BC99BD008DF191 /* rbtz.h */,
+				E9B69D0D19BC99BD008DF191 /* regex.h */,
+				E9B69D0E19BC99BD008DF191 /* region.h */,
+				E9B69D0F19BC99BD008DF191 /* rep.h */,
+				E9B69D1019BC99BD008DF191 /* resbund.h */,
+				E9B69D1119BC99BD008DF191 /* schriter.h */,
+				E9B69D1219BC99BD008DF191 /* search.h */,
+				E9B69D1319BC99BD008DF191 /* selfmt.h */,
+				E9B69D1419BC99BD008DF191 /* simpletz.h */,
+				E9B69D1519BC99BD008DF191 /* smpdtfmt.h */,
+				E9B69D1619BC99BD008DF191 /* sortkey.h */,
+				E9B69D1719BC99BD008DF191 /* std_string.h */,
+				E9B69D1819BC99BD008DF191 /* strenum.h */,
+				E9B69D1919BC99BD008DF191 /* stringpiece.h */,
+				E9B69D1A19BC99BD008DF191 /* stringtriebuilder.h */,
+				E9B69D1B19BC99BD008DF191 /* stsearch.h */,
+				E9B69D1C19BC99BD008DF191 /* symtable.h */,
+				E9B69D1D19BC99BD008DF191 /* tblcoll.h */,
+				E9B69D1E19BC99BD008DF191 /* timezone.h */,
+				E9B69D1F19BC99BD008DF191 /* tmunit.h */,
+				E9B69D2019BC99BD008DF191 /* tmutamt.h */,
+				E9B69D2119BC99BD008DF191 /* tmutfmt.h */,
+				E9B69D2219BC99BD008DF191 /* translit.h */,
+				E9B69D2319BC99BD008DF191 /* tzfmt.h */,
+				E9B69D2419BC99BD008DF191 /* tznames.h */,
+				E9B69D2519BC99BD008DF191 /* tzrule.h */,
+				E9B69D2619BC99BD008DF191 /* tztrans.h */,
+				E9B69D2719BC99BD008DF191 /* ubidi.h */,
+				E9B69D2819BC99BD008DF191 /* ubrk.h */,
+				E9B69D2919BC99BD008DF191 /* ucal.h */,
+				E9B69D2A19BC99BD008DF191 /* ucasemap.h */,
+				E9B69D2B19BC99BD008DF191 /* ucat.h */,
+				E9B69D2C19BC99BD008DF191 /* uchar.h */,
+				E9B69D2D19BC99BD008DF191 /* ucharstrie.h */,
+				E9B69D2E19BC99BD008DF191 /* ucharstriebuilder.h */,
+				E9B69D2F19BC99BD008DF191 /* uchriter.h */,
+				E9B69D3019BC99BD008DF191 /* uclean.h */,
+				E9B69D3119BC99BD008DF191 /* ucnv.h */,
+				E9B69D3219BC99BD008DF191 /* ucnv_cb.h */,
+				E9B69D3319BC99BD008DF191 /* ucnv_err.h */,
+				E9B69D3419BC99BD008DF191 /* ucnvsel.h */,
+				E9B69D3519BC99BD008DF191 /* ucol.h */,
+				E9B69D3619BC99BD008DF191 /* ucoleitr.h */,
+				E9B69D3719BC99BD008DF191 /* uconfig.h */,
+				E9B69D3819BC99BD008DF191 /* ucsdet.h */,
+				E9B69D3919BC99BD008DF191 /* ucurr.h */,
+				E9B69D3A19BC99BD008DF191 /* udat.h */,
+				E9B69D3B19BC99BD008DF191 /* udata.h */,
+				E9B69D3C19BC99BD008DF191 /* udateintervalformat.h */,
+				E9B69D3D19BC99BD008DF191 /* udatpg.h */,
+				E9B69D3E19BC99BD008DF191 /* udisplaycontext.h */,
+				E9B69D3F19BC99BD008DF191 /* uenum.h */,
+				E9B69D4019BC99BD008DF191 /* ugender.h */,
+				E9B69D4119BC99BD008DF191 /* uidna.h */,
+				E9B69D4219BC99BD008DF191 /* uiter.h */,
+				E9B69D4319BC99BD008DF191 /* uldnames.h */,
+				E9B69D4419BC99BD008DF191 /* uloc.h */,
+				E9B69D4519BC99BD008DF191 /* ulocdata.h */,
+				E9B69D4619BC99BD008DF191 /* umachine.h */,
+				E9B69D4719BC99BD008DF191 /* umisc.h */,
+				E9B69D4819BC99BD008DF191 /* umsg.h */,
+				E9B69D4919BC99BD008DF191 /* unifilt.h */,
+				E9B69D4A19BC99BD008DF191 /* unifunct.h */,
+				E9B69D4B19BC99BD008DF191 /* unimatch.h */,
+				E9B69D4C19BC99BD008DF191 /* unirepl.h */,
+				E9B69D4D19BC99BD008DF191 /* uniset.h */,
+				E9B69D4E19BC99BD008DF191 /* unistr.h */,
+				E9B69D4F19BC99BD008DF191 /* unorm.h */,
+				E9B69D5019BC99BD008DF191 /* unorm2.h */,
+				E9B69D5119BC99BD008DF191 /* unum.h */,
+				E9B69D5219BC99BD008DF191 /* uobject.h */,
+				E9B69D5319BC99BD008DF191 /* upluralrules.h */,
+				E9B69D5419BC99BD008DF191 /* uregex.h */,
+				E9B69D5519BC99BD008DF191 /* urename.h */,
+				E9B69D5619BC99BD008DF191 /* urep.h */,
+				E9B69D5719BC99BD008DF191 /* ures.h */,
+				E9B69D5819BC99BD008DF191 /* uscript.h */,
+				E9B69D5919BC99BD008DF191 /* usearch.h */,
+				E9B69D5A19BC99BD008DF191 /* uset.h */,
+				E9B69D5B19BC99BD008DF191 /* usetiter.h */,
+				E9B69D5C19BC99BD008DF191 /* ushape.h */,
+				E9B69D5D19BC99BD008DF191 /* uspoof.h */,
+				E9B69D5E19BC99BD008DF191 /* usprep.h */,
+				E9B69D5F19BC99BD008DF191 /* ustdio.h */,
+				E9B69D6019BC99BD008DF191 /* ustream.h */,
+				E9B69D6119BC99BD008DF191 /* ustring.h */,
+				E9B69D6219BC99BD008DF191 /* ustringtrie.h */,
+				E9B69D6319BC99BD008DF191 /* utext.h */,
+				E9B69D6419BC99BD008DF191 /* utf.h */,
+				E9B69D6519BC99BD008DF191 /* utf16.h */,
+				E9B69D6619BC99BD008DF191 /* utf32.h */,
+				E9B69D6719BC99BD008DF191 /* utf8.h */,
+				E9B69D6819BC99BD008DF191 /* utf_old.h */,
+				E9B69D6919BC99BD008DF191 /* utmscale.h */,
+				E9B69D6A19BC99BD008DF191 /* utrace.h */,
+				E9B69D6B19BC99BD008DF191 /* utrans.h */,
+				E9B69D6C19BC99BD008DF191 /* utypes.h */,
+				E9B69D6D19BC99BD008DF191 /* uvernum.h */,
+				E9B69D6E19BC99BD008DF191 /* uversion.h */,
+				E9B69D6F19BC99BD008DF191 /* vtzone.h */,
+			);
+			path = unicode;
+			sourceTree = "<group>";
+		};
+		E9B69D7019BC99BD008DF191 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69D7119BC99BD008DF191 /* libicudata.a */,
+				E9B69D7219BC99BD008DF191 /* libicui18n.a */,
+				E9B69D7319BC99BD008DF191 /* libicuio.a */,
+				E9B69D7419BC99BD008DF191 /* libicule.a */,
+				E9B69D7519BC99BD008DF191 /* libiculx.a */,
+				E9B69D7619BC99BD008DF191 /* libicutest.a */,
+				E9B69D7719BC99BD008DF191 /* libicutu.a */,
+				E9B69D7819BC99BD008DF191 /* libicuuc.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		E9B69D7919BC99BD008DF191 /* libetpan-ios */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69D7A19BC99BD008DF191 /* include */,
+				E9B69E1F19BC99BE008DF191 /* lib */,
+			);
+			path = "libetpan-ios";
+			sourceTree = "<group>";
+		};
+		E9B69D7A19BC99BD008DF191 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69D7B19BC99BD008DF191 /* libetpan */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E9B69D7B19BC99BD008DF191 /* libetpan */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69D7C19BC99BD008DF191 /* acl.h */,
+				E9B69D7D19BC99BD008DF191 /* acl_types.h */,
+				E9B69D7E19BC99BD008DF191 /* annotatemore.h */,
+				E9B69D7F19BC99BD008DF191 /* annotatemore_types.h */,
+				E9B69D8019BC99BD008DF191 /* carray.h */,
+				E9B69D8119BC99BD008DF191 /* charconv.h */,
+				E9B69D8219BC99BD008DF191 /* chash.h */,
+				E9B69D8319BC99BD008DF191 /* clist.h */,
+				E9B69D8419BC99BD008DF191 /* condstore.h */,
+				E9B69D8519BC99BD008DF191 /* condstore_types.h */,
+				E9B69D8619BC99BD008DF191 /* data_message_driver.h */,
+				E9B69D8719BC99BD008DF191 /* dbdriver.h */,
+				E9B69D8819BC99BD008DF191 /* dbdriver_message.h */,
+				E9B69D8919BC99BD008DF191 /* dbdriver_types.h */,
+				E9B69D8A19BC99BD008DF191 /* dbstorage.h */,
+				E9B69D8B19BC99BD008DF191 /* enable.h */,
+				E9B69D8C19BC99BD008DF191 /* feeddriver.h */,
+				E9B69D8D19BC99BD008DF191 /* feeddriver_message.h */,
+				E9B69D8E19BC99BD008DF191 /* feeddriver_types.h */,
+				E9B69D8F19BC99BD008DF191 /* feedstorage.h */,
+				E9B69D9019BC99BD008DF191 /* generic_cache_types.h */,
+				E9B69D9119BC99BD008DF191 /* hotmailstorage.h */,
+				E9B69D9219BC99BD008DF191 /* idle.h */,
+				E9B69D9319BC99BD008DF191 /* imapdriver.h */,
+				E9B69D9419BC99BD008DF191 /* imapdriver_cached.h */,
+				E9B69D9519BC99BD008DF191 /* imapdriver_cached_message.h */,
+				E9B69D9619BC99BD008DF191 /* imapdriver_message.h */,
+				E9B69D9719BC99BD008DF191 /* imapdriver_tools.h */,
+				E9B69D9819BC99BD008DF191 /* imapdriver_tools_private.h */,
+				E9B69D9919BC99BD008DF191 /* imapdriver_types.h */,
+				E9B69D9A19BC99BD008DF191 /* imapstorage.h */,
+				E9B69D9B19BC99BD008DF191 /* libetpan-config.h */,
+				E9B69D9C19BC99BD008DF191 /* libetpan.h */,
+				E9B69D9D19BC99BD008DF191 /* libetpan_version.h */,
+				E9B69D9E19BC99BD008DF191 /* mail.h */,
+				E9B69D9F19BC99BD008DF191 /* maildir.h */,
+				E9B69DA019BC99BD008DF191 /* maildir_types.h */,
+				E9B69DA119BC99BD008DF191 /* maildirdriver.h */,
+				E9B69DA219BC99BD008DF191 /* maildirdriver_cached.h */,
+				E9B69DA319BC99BD008DF191 /* maildirdriver_cached_message.h */,
+				E9B69DA419BC99BD008DF191 /* maildirdriver_message.h */,
+				E9B69DA519BC99BD008DF191 /* maildirdriver_types.h */,
+				E9B69DA619BC99BD008DF191 /* maildirstorage.h */,
+				E9B69DA719BC99BD008DF191 /* maildriver.h */,
+				E9B69DA819BC99BD008DF191 /* maildriver_errors.h */,
+				E9B69DA919BC99BD008DF191 /* maildriver_types.h */,
+				E9B69DAA19BC99BD008DF191 /* maildriver_types_helper.h */,
+				E9B69DAB19BC99BD008DF191 /* mailengine.h */,
+				E9B69DAC19BC99BD008DF191 /* mailfolder.h */,
+				E9B69DAD19BC99BD008DF191 /* mailimap.h */,
+				E9B69DAE19BC99BD008DF191 /* mailimap_compress.h */,
+				E9B69DAF19BC99BD008DF191 /* mailimap_extension.h */,
+				E9B69DB019BC99BD008DF191 /* mailimap_extension_types.h */,
+				E9B69DB119BC99BD008DF191 /* mailimap_helper.h */,
+				E9B69DB219BC99BD008DF191 /* mailimap_id.h */,
+				E9B69DB319BC99BD008DF191 /* mailimap_id_types.h */,
+				E9B69DB419BC99BD008DF191 /* mailimap_oauth2.h */,
+				E9B69DB519BC99BD008DF191 /* mailimap_socket.h */,
+				E9B69DB619BC99BD008DF191 /* mailimap_sort.h */,
+				E9B69DB719BC99BD008DF191 /* mailimap_sort_types.h */,
+				E9B69DB819BC99BD008DF191 /* mailimap_ssl.h */,
+				E9B69DB919BC99BD008DF191 /* mailimap_types.h */,
+				E9B69DBA19BC99BD008DF191 /* mailimap_types_helper.h */,
+				E9B69DBB19BC99BD008DF191 /* mailimf.h */,
+				E9B69DBC19BC99BD008DF191 /* mailimf_types.h */,
+				E9B69DBD19BC99BD008DF191 /* mailimf_types_helper.h */,
+				E9B69DBE19BC99BD008DF191 /* mailimf_write_file.h */,
+				E9B69DBF19BC99BD008DF191 /* mailimf_write_generic.h */,
+				E9B69DC019BC99BD008DF191 /* mailimf_write_mem.h */,
+				E9B69DC119BC99BD008DF191 /* maillock.h */,
+				E9B69DC219BC99BD008DF191 /* mailmbox.h */,
+				E9B69DC319BC99BD008DF191 /* mailmbox_types.h */,
+				E9B69DC419BC99BD008DF191 /* mailmessage.h */,
+				E9B69DC519BC99BD008DF191 /* mailmessage_types.h */,
+				E9B69DC619BC99BD008DF191 /* mailmh.h */,
+				E9B69DC719BC99BD008DF191 /* mailmime.h */,
+				E9B69DC819BC99BD008DF191 /* mailmime_content.h */,
+				E9B69DC919BC99BD008DF191 /* mailmime_decode.h */,
+				E9B69DCA19BC99BD008DF191 /* mailmime_disposition.h */,
+				E9B69DCB19BC99BD008DF191 /* mailmime_types.h */,
+				E9B69DCC19BC99BD008DF191 /* mailmime_types_helper.h */,
+				E9B69DCD19BC99BD008DF191 /* mailmime_write_file.h */,
+				E9B69DCE19BC99BD008DF191 /* mailmime_write_generic.h */,
+				E9B69DCF19BC99BD008DF191 /* mailmime_write_mem.h */,
+				E9B69DD019BC99BD008DF191 /* mailpop3.h */,
+				E9B69DD119BC99BD008DF191 /* mailpop3_helper.h */,
+				E9B69DD219BC99BD008DF191 /* mailpop3_socket.h */,
+				E9B69DD319BC99BD008DF191 /* mailpop3_ssl.h */,
+				E9B69DD419BC99BD008DF191 /* mailpop3_types.h */,
+				E9B69DD519BC99BD008DF191 /* mailprivacy.h */,
+				E9B69DD619BC99BD008DF191 /* mailprivacy_gnupg.h */,
+				E9B69DD719BC99BD008DF191 /* mailprivacy_smime.h */,
+				E9B69DD819BC99BD008DF191 /* mailprivacy_tools.h */,
+				E9B69DD919BC99BD008DF191 /* mailprivacy_types.h */,
+				E9B69DDA19BC99BD008DF191 /* mailsem.h */,
+				E9B69DDB19BC99BD008DF191 /* mailsmtp.h */,
+				E9B69DDC19BC99BD008DF191 /* mailsmtp_helper.h */,
+				E9B69DDD19BC99BD008DF191 /* mailsmtp_oauth2.h */,
+				E9B69DDE19BC99BD008DF191 /* mailsmtp_socket.h */,
+				E9B69DDF19BC99BD008DF191 /* mailsmtp_ssl.h */,
+				E9B69DE019BC99BD008DF191 /* mailsmtp_types.h */,
+				E9B69DE119BC99BD008DF191 /* mailstorage.h */,
+				E9B69DE219BC99BD008DF191 /* mailstorage_types.h */,
+				E9B69DE319BC99BD008DF191 /* mailstream.h */,
+				E9B69DE419BC99BD008DF191 /* mailstream_cfstream.h */,
+				E9B69DE519BC99BD008DF191 /* mailstream_compress.h */,
+				E9B69DE619BC99BD008DF191 /* mailstream_helper.h */,
+				E9B69DE719BC99BD008DF191 /* mailstream_low.h */,
+				E9B69DE819BC99BD008DF191 /* mailstream_socket.h */,
+				E9B69DE919BC99BD008DF191 /* mailstream_ssl.h */,
+				E9B69DEA19BC99BD008DF191 /* mailstream_types.h */,
+				E9B69DEB19BC99BD008DF191 /* mailthread.h */,
+				E9B69DEC19BC99BD008DF191 /* mailthread_types.h */,
+				E9B69DED19BC99BD008DF191 /* mboxdriver.h */,
+				E9B69DEE19BC99BD008DF191 /* mboxdriver_cached.h */,
+				E9B69DEF19BC99BD008DF191 /* mboxdriver_cached_message.h */,
+				E9B69DF019BC99BD008DF191 /* mboxdriver_message.h */,
+				E9B69DF119BC99BD008DF191 /* mboxdriver_types.h */,
+				E9B69DF219BC99BD008DF191 /* mboxstorage.h */,
+				E9B69DF319BC99BD008DF191 /* mhdriver.h */,
+				E9B69DF419BC99BD008DF191 /* mhdriver_cached.h */,
+				E9B69DF519BC99BD008DF191 /* mhdriver_cached_message.h */,
+				E9B69DF619BC99BD008DF191 /* mhdriver_message.h */,
+				E9B69DF719BC99BD008DF191 /* mhdriver_types.h */,
+				E9B69DF819BC99BD008DF191 /* mhstorage.h */,
+				E9B69DF919BC99BD008DF191 /* mime_message_driver.h */,
+				E9B69DFA19BC99BD008DF191 /* mmapstring.h */,
+				E9B69DFB19BC99BD008DF191 /* namespace.h */,
+				E9B69DFC19BC99BD008DF191 /* namespace_parser.h */,
+				E9B69DFD19BC99BD008DF191 /* namespace_sender.h */,
+				E9B69DFE19BC99BD008DF191 /* namespace_types.h */,
+				E9B69DFF19BC99BD008DF191 /* newsfeed.h */,
+				E9B69E0019BC99BD008DF191 /* newsfeed_item.h */,
+				E9B69E0119BC99BD008DF191 /* newsfeed_item_enclosure.h */,
+				E9B69E0219BC99BD008DF191 /* newsfeed_types.h */,
+				E9B69E0319BC99BD008DF191 /* newsnntp.h */,
+				E9B69E0419BC99BD008DF191 /* newsnntp_socket.h */,
+				E9B69E0519BC99BE008DF191 /* newsnntp_ssl.h */,
+				E9B69E0619BC99BE008DF191 /* newsnntp_types.h */,
+				E9B69E0719BC99BE008DF191 /* nntpdriver.h */,
+				E9B69E0819BC99BE008DF191 /* nntpdriver_cached.h */,
+				E9B69E0919BC99BE008DF191 /* nntpdriver_cached_message.h */,
+				E9B69E0A19BC99BE008DF191 /* nntpdriver_message.h */,
+				E9B69E0B19BC99BE008DF191 /* nntpdriver_types.h */,
+				E9B69E0C19BC99BE008DF191 /* nntpstorage.h */,
+				E9B69E0D19BC99BE008DF191 /* pop3driver.h */,
+				E9B69E0E19BC99BE008DF191 /* pop3driver_cached.h */,
+				E9B69E0F19BC99BE008DF191 /* pop3driver_cached_message.h */,
+				E9B69E1019BC99BE008DF191 /* pop3driver_message.h */,
+				E9B69E1119BC99BE008DF191 /* pop3driver_types.h */,
+				E9B69E1219BC99BE008DF191 /* pop3storage.h */,
+				E9B69E1319BC99BE008DF191 /* qresync.h */,
+				E9B69E1419BC99BE008DF191 /* qresync_types.h */,
+				E9B69E1519BC99BE008DF191 /* quota.h */,
+				E9B69E1619BC99BE008DF191 /* quota_parser.h */,
+				E9B69E1719BC99BE008DF191 /* quota_sender.h */,
+				E9B69E1819BC99BE008DF191 /* quota_types.h */,
+				E9B69E1919BC99BE008DF191 /* uidplus.h */,
+				E9B69E1A19BC99BE008DF191 /* uidplus_types.h */,
+				E9B69E1B19BC99BE008DF191 /* xgmlabels.h */,
+				E9B69E1C19BC99BE008DF191 /* xgmmsgid.h */,
+				E9B69E1D19BC99BE008DF191 /* xgmthrid.h */,
+				E9B69E1E19BC99BE008DF191 /* xlist.h */,
+			);
+			path = libetpan;
+			sourceTree = "<group>";
+		};
+		E9B69E1F19BC99BE008DF191 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69E2019BC99BE008DF191 /* libetpan-ios.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		E9B69E2119BC99BE008DF191 /* libsasl-ios */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69E2219BC99BE008DF191 /* include */,
+				E9B69E2C19BC99BE008DF191 /* lib */,
+			);
+			path = "libsasl-ios";
+			sourceTree = "<group>";
+		};
+		E9B69E2219BC99BE008DF191 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69E2319BC99BE008DF191 /* sasl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E9B69E2319BC99BE008DF191 /* sasl */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69E2419BC99BE008DF191 /* exits.h */,
+				E9B69E2519BC99BE008DF191 /* gai.h */,
+				E9B69E2619BC99BE008DF191 /* hmac-md5.h */,
+				E9B69E2719BC99BE008DF191 /* md5.h */,
+				E9B69E2819BC99BE008DF191 /* prop.h */,
+				E9B69E2919BC99BE008DF191 /* sasl.h */,
+				E9B69E2A19BC99BE008DF191 /* saslplug.h */,
+				E9B69E2B19BC99BE008DF191 /* saslutil.h */,
+			);
+			path = sasl;
+			sourceTree = "<group>";
+		};
+		E9B69E2C19BC99BE008DF191 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69E2D19BC99BE008DF191 /* libsasl2.a */,
+				E9B69E2E19BC99BE008DF191 /* sasl2 */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		E9B69E2E19BC99BE008DF191 /* sasl2 */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69E2F19BC99BE008DF191 /* libanonymous.a */,
+				E9B69E3019BC99BE008DF191 /* libcrammd5.a */,
+				E9B69E3119BC99BE008DF191 /* liblogin.a */,
+				E9B69E3219BC99BE008DF191 /* libplain.a */,
+				E9B69E3319BC99BE008DF191 /* libsasldb.a */,
+			);
+			path = sasl2;
+			sourceTree = "<group>";
+		};
+		E9B69E3419BC99BE008DF191 /* mailcore2-ios */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69E3519BC99BE008DF191 /* include */,
+				E9B69F0219BC99BE008DF191 /* lib */,
+			);
+			path = "mailcore2-ios";
+			sourceTree = "<group>";
+		};
+		E9B69E3519BC99BE008DF191 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69E3619BC99BE008DF191 /* MailCore */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E9B69E3619BC99BE008DF191 /* MailCore */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69E3719BC99BE008DF191 /* MailCore.h */,
+				E9B69E3819BC99BE008DF191 /* MCAbstract.h */,
+				E9B69E3919BC99BE008DF191 /* MCAbstractMessage.h */,
+				E9B69E3A19BC99BE008DF191 /* MCAbstractMessagePart.h */,
+				E9B69E3B19BC99BE008DF191 /* MCAbstractMultipart.h */,
+				E9B69E3C19BC99BE008DF191 /* MCAbstractPart.h */,
+				E9B69E3D19BC99BE008DF191 /* MCAddress.h */,
+				E9B69E3E19BC99BE008DF191 /* MCAddressDisplay.h */,
+				E9B69E3F19BC99BE008DF191 /* MCArray.h */,
+				E9B69E4019BC99BE008DF191 /* MCAssert.h */,
+				E9B69E4119BC99BE008DF191 /* MCAsync.h */,
+				E9B69E4219BC99BE008DF191 /* MCAsyncIMAP.h */,
+				E9B69E4319BC99BE008DF191 /* MCAsyncNNTP.h */,
+				E9B69E4419BC99BE008DF191 /* MCAsyncPOP.h */,
+				E9B69E4519BC99BE008DF191 /* MCAsyncSMTP.h */,
+				E9B69E4619BC99BE008DF191 /* MCAttachment.h */,
+				E9B69E4719BC99BE008DF191 /* MCAutoreleasePool.h */,
+				E9B69E4819BC99BE008DF191 /* MCBaseTypes.h */,
+				E9B69E4919BC99BE008DF191 /* MCConnectionLogger.h */,
+				E9B69E4A19BC99BE008DF191 /* MCCore.h */,
+				E9B69E4B19BC99BE008DF191 /* MCData.h */,
+				E9B69E4C19BC99BE008DF191 /* MCDateFormatter.h */,
+				E9B69E4D19BC99BE008DF191 /* MCHash.h */,
+				E9B69E4E19BC99BE008DF191 /* MCHashMap.h */,
+				E9B69E4F19BC99BE008DF191 /* MCHTMLRendererCallback.h */,
+				E9B69E5019BC99BE008DF191 /* MCICUTypes.h */,
+				E9B69E5119BC99BE008DF191 /* MCIMAP.h */,
+				E9B69E5219BC99BE008DF191 /* MCIMAPAppendMessageOperation.h */,
+				E9B69E5319BC99BE008DF191 /* MCIMAPAsyncSession.h */,
+				E9B69E5419BC99BE008DF191 /* MCIMAPCapabilityOperation.h */,
+				E9B69E5519BC99BE008DF191 /* MCIMAPConnectOperation.h */,
+				E9B69E5619BC99BE008DF191 /* MCIMAPCopyMessagesOperation.h */,
+				E9B69E5719BC99BE008DF191 /* MCIMAPFetchContentOperation.h */,
+				E9B69E5819BC99BE008DF191 /* MCIMAPFetchFoldersOperation.h */,
+				E9B69E5919BC99BE008DF191 /* MCIMAPFetchMessagesOperation.h */,
+				E9B69E5A19BC99BE008DF191 /* MCIMAPFetchNamespaceOperation.h */,
+				E9B69E5B19BC99BE008DF191 /* MCIMAPFolder.h */,
+				E9B69E5C19BC99BE008DF191 /* MCIMAPFolderInfoOperation.h */,
+				E9B69E5D19BC99BE008DF191 /* MCIMAPFolderStatus.h */,
+				E9B69E5E19BC99BE008DF191 /* MCIMAPFolderStatusOperation.h */,
+				E9B69E5F19BC99BE008DF191 /* MCIMAPIdentity.h */,
+				E9B69E6019BC99BE008DF191 /* MCIMAPIdentityOperation.h */,
+				E9B69E6119BC99BE008DF191 /* MCIMAPIdleOperation.h */,
+				E9B69E6219BC99BE008DF191 /* MCIMAPMessage.h */,
+				E9B69E6319BC99BE008DF191 /* MCIMAPMessagePart.h */,
+				E9B69E6419BC99BE008DF191 /* MCIMAPMessageRenderingOperation.h */,
+				E9B69E6519BC99BE008DF191 /* MCIMAPMultipart.h */,
+				E9B69E6619BC99BE008DF191 /* MCIMAPNamespace.h */,
+				E9B69E6719BC99BE008DF191 /* MCIMAPNamespaceItem.h */,
+				E9B69E6819BC99BE008DF191 /* MCIMAPNoopOperation.h */,
+				E9B69E6919BC99BE008DF191 /* MCIMAPOperation.h */,
+				E9B69E6A19BC99BE008DF191 /* MCIMAPOperationCallback.h */,
+				E9B69E6B19BC99BE008DF191 /* MCIMAPPart.h */,
+				E9B69E6C19BC99BE008DF191 /* MCIMAPProgressCallback.h */,
+				E9B69E6D19BC99BE008DF191 /* MCIMAPQuotaOperation.h */,
+				E9B69E6E19BC99BE008DF191 /* MCIMAPSearchExpression.h */,
+				E9B69E6F19BC99BE008DF191 /* MCIMAPSearchOperation.h */,
+				E9B69E7019BC99BE008DF191 /* MCIMAPSession.h */,
+				E9B69E7119BC99BE008DF191 /* MCIMAPSyncResult.h */,
+				E9B69E7219BC99BE008DF191 /* MCIndexSet.h */,
+				E9B69E7319BC99BE008DF191 /* MCIterator.h */,
+				E9B69E7419BC99BE008DF191 /* MCJSON.h */,
+				E9B69E7519BC99BE008DF191 /* MCLibetpanTypes.h */,
+				E9B69E7619BC99BE008DF191 /* MCLog.h */,
+				E9B69E7719BC99BE008DF191 /* MCMailProvider.h */,
+				E9B69E7819BC99BE008DF191 /* MCMailProvidersManager.h */,
+				E9B69E7919BC99BE008DF191 /* MCMainThread.h */,
+				E9B69E7A19BC99BE008DF191 /* MCMD5.h */,
+				E9B69E7B19BC99BE008DF191 /* MCMessageBuilder.h */,
+				E9B69E7C19BC99BE008DF191 /* MCMessageConstants.h */,
+				E9B69E7D19BC99BE008DF191 /* MCMessageHeader.h */,
+				E9B69E7E19BC99BE008DF191 /* MCMessageParser.h */,
+				E9B69E7F19BC99BE008DF191 /* MCMessagePart.h */,
+				E9B69E8019BC99BE008DF191 /* MCMultipart.h */,
+				E9B69E8119BC99BE008DF191 /* MCNetService.h */,
+				E9B69E8219BC99BE008DF191 /* MCNNTP.h */,
+				E9B69E8319BC99BE008DF191 /* MCNNTPAsyncSession.h */,
+				E9B69E8419BC99BE008DF191 /* MCNNTPCheckAccountOperation.h */,
+				E9B69E8519BC99BE008DF191 /* MCNNTPFetchArticleOperation.h */,
+				E9B69E8619BC99BE008DF191 /* MCNNTPFetchArticlesOperation.h */,
+				E9B69E8719BC99BE008DF191 /* MCNNTPFetchHeaderOperation.h */,
+				E9B69E8819BC99BE008DF191 /* MCNNTPGroupInfo.h */,
+				E9B69E8919BC99BE008DF191 /* MCNNTPListNewsgroupsOperation.h */,
+				E9B69E8A19BC99BE008DF191 /* MCNNTPOperation.h */,
+				E9B69E8B19BC99BE008DF191 /* MCNNTPOperationCallback.h */,
+				E9B69E8C19BC99BE008DF191 /* MCNNTPProgressCallback.h */,
+				E9B69E8D19BC99BE008DF191 /* MCNNTPSession.h */,
+				E9B69E8E19BC99BE008DF191 /* MCNull.h */,
+				E9B69E8F19BC99BE008DF191 /* MCOAbstract.h */,
+				E9B69E9019BC99BE008DF191 /* MCOAbstractMessage.h */,
+				E9B69E9119BC99BE008DF191 /* MCOAbstractMessagePart.h */,
+				E9B69E9219BC99BE008DF191 /* MCOAbstractMultipart.h */,
+				E9B69E9319BC99BE008DF191 /* MCOAbstractPart.h */,
+				E9B69E9419BC99BE008DF191 /* MCOAddress.h */,
+				E9B69E9519BC99BE008DF191 /* MCOAttachment.h */,
+				E9B69E9619BC99BE008DF191 /* MCObjC.h */,
+				E9B69E9719BC99BE008DF191 /* MCObject.h */,
+				E9B69E9819BC99BE008DF191 /* MCOConstants.h */,
+				E9B69E9919BC99BE008DF191 /* MCOHTMLRendererDelegate.h */,
+				E9B69E9A19BC99BE008DF191 /* MCOHTMLRendererIMAPDelegate.h */,
+				E9B69E9B19BC99BE008DF191 /* MCOIMAP.h */,
+				E9B69E9C19BC99BE008DF191 /* MCOIMAPAppendMessageOperation.h */,
+				E9B69E9D19BC99BE008DF191 /* MCOIMAPBaseOperation.h */,
+				E9B69E9E19BC99BE008DF191 /* MCOIMAPCapabilityOperation.h */,
+				E9B69E9F19BC99BE008DF191 /* MCOIMAPCopyMessagesOperation.h */,
+				E9B69EA019BC99BE008DF191 /* MCOIMAPFetchContentOperation.h */,
+				E9B69EA119BC99BE008DF191 /* MCOIMAPFetchFoldersOperation.h */,
+				E9B69EA219BC99BE008DF191 /* MCOIMAPFetchMessagesOperation.h */,
+				E9B69EA319BC99BE008DF191 /* MCOIMAPFetchNamespaceOperation.h */,
+				E9B69EA419BC99BE008DF191 /* MCOIMAPFolder.h */,
+				E9B69EA519BC99BE008DF191 /* MCOIMAPFolderInfo.h */,
+				E9B69EA619BC99BE008DF191 /* MCOIMAPFolderInfoOperation.h */,
+				E9B69EA719BC99BE008DF191 /* MCOIMAPFolderStatus.h */,
+				E9B69EA819BC99BE008DF191 /* MCOIMAPFolderStatusOperation.h */,
+				E9B69EA919BC99BE008DF191 /* MCOIMAPIdentity.h */,
+				E9B69EAA19BC99BE008DF191 /* MCOIMAPIdentityOperation.h */,
+				E9B69EAB19BC99BE008DF191 /* MCOIMAPIdleOperation.h */,
+				E9B69EAC19BC99BE008DF191 /* MCOIMAPMessage.h */,
+				E9B69EAD19BC99BE008DF191 /* MCOIMAPMessagePart.h */,
+				E9B69EAE19BC99BE008DF191 /* MCOIMAPMessageRenderingOperation.h */,
+				E9B69EAF19BC99BE008DF191 /* MCOIMAPMultipart.h */,
+				E9B69EB019BC99BE008DF191 /* MCOIMAPNamespace.h */,
+				E9B69EB119BC99BE008DF191 /* MCOIMAPNamespaceItem.h */,
+				E9B69EB219BC99BE008DF191 /* MCOIMAPOperation.h */,
+				E9B69EB319BC99BE008DF191 /* MCOIMAPPart.h */,
+				E9B69EB419BC99BE008DF191 /* MCOIMAPQuotaOperation.h */,
+				E9B69EB519BC99BE008DF191 /* MCOIMAPSearchExpression.h */,
+				E9B69EB619BC99BE008DF191 /* MCOIMAPSearchOperation.h */,
+				E9B69EB719BC99BE008DF191 /* MCOIMAPSession.h */,
+				E9B69EB819BC99BE008DF191 /* MCOIndexSet.h */,
+				E9B69EB919BC99BE008DF191 /* MCOMailProvider.h */,
+				E9B69EBA19BC99BE008DF191 /* MCOMailProvidersManager.h */,
+				E9B69EBB19BC99BE008DF191 /* MCOMessageBuilder.h */,
+				E9B69EBC19BC99BE008DF191 /* MCOMessageHeader.h */,
+				E9B69EBD19BC99BE008DF191 /* MCOMessageParser.h */,
+				E9B69EBE19BC99BE008DF191 /* MCOMessagePart.h */,
+				E9B69EBF19BC99BE008DF191 /* MCOMultipart.h */,
+				E9B69EC019BC99BE008DF191 /* MCONetService.h */,
+				E9B69EC119BC99BE008DF191 /* MCONNTP.h */,
+				E9B69EC219BC99BE008DF191 /* MCONNTPDisconnectOperation.h */,
+				E9B69EC319BC99BE008DF191 /* MCONNTPFetchArticleOperation.h */,
+				E9B69EC419BC99BE008DF191 /* MCONNTPFetchArticlesOperation.h */,
+				E9B69EC519BC99BE008DF191 /* MCONNTPFetchHeaderOperation.h */,
+				E9B69EC619BC99BE008DF191 /* MCONNTPGroupInfo.h */,
+				E9B69EC719BC99BE008DF191 /* MCONNTPListNewsgroupsOperation.h */,
+				E9B69EC819BC99BE008DF191 /* MCONNTPOperation.h */,
+				E9B69EC919BC99BE008DF191 /* MCONNTPSession.h */,
+				E9B69ECA19BC99BE008DF191 /* MCOObjectWrapper.h */,
+				E9B69ECB19BC99BE008DF191 /* MCOOperation.h */,
+				E9B69ECC19BC99BE008DF191 /* MCOperation.h */,
+				E9B69ECD19BC99BE008DF191 /* MCOperationCallback.h */,
+				E9B69ECE19BC99BE008DF191 /* MCOperationQueue.h */,
+				E9B69ECF19BC99BE008DF191 /* MCOPOP.h */,
+				E9B69ED019BC99BE008DF191 /* MCOPOPFetchHeaderOperation.h */,
+				E9B69ED119BC99BE008DF191 /* MCOPOPFetchMessageOperation.h */,
+				E9B69ED219BC99BE008DF191 /* MCOPOPFetchMessagesOperation.h */,
+				E9B69ED319BC99BE008DF191 /* MCOPOPMessageInfo.h */,
+				E9B69ED419BC99BE008DF191 /* MCOPOPNoopOperation.h */,
+				E9B69ED519BC99BE008DF191 /* MCOPOPOperation.h */,
+				E9B69ED619BC99BE008DF191 /* MCOPOPSession.h */,
+				E9B69ED719BC99BE008DF191 /* MCOProvider.h */,
+				E9B69ED819BC99BE008DF191 /* MCORange.h */,
+				E9B69ED919BC99BE008DF191 /* MCORFC822.h */,
+				E9B69EDA19BC99BE008DF191 /* MCOSMTP.h */,
+				E9B69EDB19BC99BE008DF191 /* MCOSMTPOperation.h */,
+				E9B69EDC19BC99BE008DF191 /* MCOSMTPSendOperation.h */,
+				E9B69EDD19BC99BE008DF191 /* MCOSMTPSession.h */,
+				E9B69EDE19BC99BE008DF191 /* MCOUtils.h */,
+				E9B69EDF19BC99BE008DF191 /* MCPOP.h */,
+				E9B69EE019BC99BE008DF191 /* MCPOPAsyncSession.h */,
+				E9B69EE119BC99BE008DF191 /* MCPOPFetchHeaderOperation.h */,
+				E9B69EE219BC99BE008DF191 /* MCPOPFetchMessageOperation.h */,
+				E9B69EE319BC99BE008DF191 /* MCPOPFetchMessagesOperation.h */,
+				E9B69EE419BC99BE008DF191 /* MCPOPMessageInfo.h */,
+				E9B69EE519BC99BE008DF191 /* MCPOPNoopOperation.h */,
+				E9B69EE619BC99BE008DF191 /* MCPOPOperation.h */,
+				E9B69EE719BC99BE008DF191 /* MCPOPOperationCallback.h */,
+				E9B69EE819BC99BE008DF191 /* MCPOPProgressCallback.h */,
+				E9B69EE919BC99BE008DF191 /* MCPOPSession.h */,
+				E9B69EEA19BC99BE008DF191 /* MCProvider.h */,
+				E9B69EEB19BC99BE008DF191 /* MCRange.h */,
+				E9B69EEC19BC99BE008DF191 /* MCRenderer.h */,
+				E9B69EED19BC99BE008DF191 /* MCRFC822.h */,
+				E9B69EEE19BC99BE008DF191 /* MCSet.h */,
+				E9B69EEF19BC99BE008DF191 /* MCSizeFormatter.h */,
+				E9B69EF019BC99BE008DF191 /* MCSMTP.h */,
+				E9B69EF119BC99BE008DF191 /* MCSMTPAsyncSession.h */,
+				E9B69EF219BC99BE008DF191 /* MCSMTPNoopOperation.h */,
+				E9B69EF319BC99BE008DF191 /* MCSMTPOperation.h */,
+				E9B69EF419BC99BE008DF191 /* MCSMTPOperationCallback.h */,
+				E9B69EF519BC99BE008DF191 /* MCSMTPProgressCallback.h */,
+				E9B69EF619BC99BE008DF191 /* MCSMTPSession.h */,
+				E9B69EF719BC99BE008DF191 /* MCString.h */,
+				E9B69EF819BC99BE008DF191 /* MCUtils.h */,
+				E9B69EF919BC99BE008DF191 /* MCValue.h */,
+				E9B69EFA19BC99BE008DF191 /* NSArray+MCO.h */,
+				E9B69EFB19BC99BE008DF191 /* NSData+MCO.h */,
+				E9B69EFC19BC99BE008DF191 /* NSDictionary+MCO.h */,
+				E9B69EFD19BC99BE008DF191 /* NSError+MCO.h */,
+				E9B69EFE19BC99BE008DF191 /* NSIndexSet+MCO.h */,
+				E9B69EFF19BC99BE008DF191 /* NSObject+MCO.h */,
+				E9B69F0019BC99BE008DF191 /* NSString+MCO.h */,
+				E9B69F0119BC99BE008DF191 /* NSValue+MCO.h */,
+			);
+			path = MailCore;
+			sourceTree = "<group>";
+		};
+		E9B69F0219BC99BE008DF191 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69F0319BC99BE008DF191 /* libMailCore-ios.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		E9B69F0419BC99BE008DF191 /* tidy-html5-ios */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69F0519BC99BE008DF191 /* include */,
+				E9B69F0B19BC99BE008DF191 /* lib */,
+			);
+			path = "tidy-html5-ios";
+			sourceTree = "<group>";
+		};
+		E9B69F0519BC99BE008DF191 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69F0619BC99BE008DF191 /* tidy */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E9B69F0619BC99BE008DF191 /* tidy */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69F0719BC99BE008DF191 /* buffio.h */,
+				E9B69F0819BC99BE008DF191 /* platform.h */,
+				E9B69F0919BC99BE008DF191 /* tidy.h */,
+				E9B69F0A19BC99BE008DF191 /* tidyenum.h */,
+			);
+			path = tidy;
+			sourceTree = "<group>";
+		};
+		E9B69F0B19BC99BE008DF191 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E9B69F0C19BC99BE008DF191 /* libtidy.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,8 +1738,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9287B8E19BC558700DE4137 /* Main.storyboard in Resources */,
+				E9B5DD8D19BCDA820022EAB7 /* darkArrow.png in Resources */,
 				E9287B8D19BC555C00DE4137 /* InfoPlist.strings in Resources */,
-				E9287B9319BC567B00DE4137 /* MCResources in Resources */,
 				E9287B6219BC461600DE4137 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,10 +1759,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B5DD7D19BCD5930022EAB7 /* MCMailPreviewCell.m in Sources */,
 				E9287B5A19BC461600DE4137 /* MCAppDelegate.m in Sources */,
 				E9287B8219BC498100DE4137 /* MCEnterEmailViewController.m in Sources */,
 				E9287B8719BC49BE00DE4137 /* MCEnterEmailView.m in Sources */,
+				E9B5DD8A19BCD7F70022EAB7 /* MCDetailMailViewController.m in Sources */,
 				E9287B5619BC461600DE4137 /* main.m in Sources */,
+				E9B5DD8719BCD7C60022EAB7 /* MCDetailMailView.m in Sources */,
+				E9B5DD8019BCD5F20022EAB7 /* MCMailPreviewTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,9 +1893,42 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MailClient/MailClient-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/MailClient/libs/**",
+				);
 				INFOPLIST_FILE = "MailClient/MailClient-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MailClient/libs/mailcore2-ios/lib",
+					"$(PROJECT_DIR)/MailClient/libs/ctemplate-ios/lib",
+					"$(PROJECT_DIR)/MailClient/libs/icu4c-ios/lib",
+					"$(PROJECT_DIR)/MailClient/libs/libetpan-ios/lib",
+					"$(PROJECT_DIR)/MailClient/libs/libsasl-ios/lib",
+					"$(PROJECT_DIR)/MailClient/libs/libsasl-ios/lib/sasl2",
+					"$(PROJECT_DIR)/MailClient/libs/tidy-html5-ios/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-licudata",
+					"-licui18n",
+					"-licuuc",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lz",
+					"-licucore",
+					"-lc++",
+					"-stdlib=libc++",
+					"-ObjC",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -418,9 +1939,42 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MailClient/MailClient-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/MailClient/libs/**",
+				);
 				INFOPLIST_FILE = "MailClient/MailClient-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MailClient/libs/mailcore2-ios/lib",
+					"$(PROJECT_DIR)/MailClient/libs/ctemplate-ios/lib",
+					"$(PROJECT_DIR)/MailClient/libs/icu4c-ios/lib",
+					"$(PROJECT_DIR)/MailClient/libs/libetpan-ios/lib",
+					"$(PROJECT_DIR)/MailClient/libs/libsasl-ios/lib",
+					"$(PROJECT_DIR)/MailClient/libs/libsasl-ios/lib/sasl2",
+					"$(PROJECT_DIR)/MailClient/libs/tidy-html5-ios/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-licudata",
+					"-licui18n",
+					"-licuuc",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lz",
+					"-licucore",
+					"-lc++",
+					"-stdlib=libc++",
+					"-ObjC",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

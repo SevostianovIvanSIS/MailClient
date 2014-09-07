@@ -10,4 +10,6 @@
 
 @interface MCEnterEmailViewController : UIViewController
 
+- (IBAction)goToMailsAction:(id)sender;
+
 @end
