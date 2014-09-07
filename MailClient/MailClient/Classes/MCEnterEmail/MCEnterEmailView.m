@@ -14,6 +14,7 @@
 @synthesize PasswordTextField = m_pPasswordTextField;
 @synthesize GoToMailsButton = m_pGoToMailsButton;
 @synthesize ActivityIndicator = m_pActivityIndicator;
+@synthesize IsActivityIndicatorEnable = m_bIsActivityIndicatorEnable;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -32,5 +33,15 @@
     // Drawing code
 }
 */
+
+- (void)layoutSubviews{
+    if(![self IsActivityIndicatorEnable]){
+        [m_pActivityIndicator setColor:[UIColor clearColor]];
+        [m_pActivityIndicator setHidden:YES];
+    }else{
+        [m_pActivityIndicator setColor:[UIColor grayColor]];
+        [m_pActivityIndicator setHidden:NO];
+    }
+}
 
 @end

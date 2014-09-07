@@ -20,3 +20,5 @@
 *.out
 *.app
 UserInterfaceState.xcuserstate
+MailClient/MailClient.xcodeproj/project.xcworkspace/xcshareddata/MailClient.xccheckout
+MailClient/MailClient.xcodeproj/xcuserdata/ivansevostianov.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist

@@ -15,4 +15,6 @@
 @property (nonatomic, strong) IBOutlet UIButton *GoToMailsButton;
 @property (nonatomic, strong) IBOutlet UIActivityIndicatorView *ActivityIndicator;
 
+@property (nonatomic, assign) BOOL IsActivityIndicatorEnable;
+
 @end
