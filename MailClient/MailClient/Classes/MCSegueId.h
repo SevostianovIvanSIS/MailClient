@@ -11,7 +11,6 @@
 #import <UIKit/UIKit.h>
 
 static NSString* const kToMailSegueId = @"ToMailSegue";
-static NSString* const kRturnToEnterEmailId = @"RturnToEnterEmail";
 static NSString* const kToDetailViewSegueId = @"ToDetailViewSegue";
 
 #endif

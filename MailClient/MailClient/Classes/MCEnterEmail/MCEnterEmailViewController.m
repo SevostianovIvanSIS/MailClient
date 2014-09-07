@@ -8,13 +8,18 @@
 
 #import "MCEnterEmailViewController.h"
 #import "MCConstants.h"
-#import "MailCore.h"
+#import "MCEnterEmailView.h"
+#import "MCMailPreviewTableViewController.h"
+
 
 @interface MCEnterEmailViewController ()
 
 @end
 
 @implementation MCEnterEmailViewController
+
+@synthesize Session = m_pSession;
+@synthesize MesaagesCount = m_pMessagesCount;
 
 - (void)viewDidLoad
 {
@@ -30,60 +35,73 @@
 
 - (IBAction)goToMailsAction:(id)sender{
     
-    MCOIMAPSession *session = [[MCOIMAPSession alloc] init];
-    [session setHostname:@"imap.gmail.com"];
-    [session setPort:993];
-    [session setUsername:@"sevostianov.ivan.s.i.s@gmail.com"];
-    [session setPassword:@"catalist1990SIS"];
-    [session setConnectionType:MCOConnectionTypeTLS];
+    MCEnterEmailView *pView = (MCEnterEmailView *)[self view];
+    NSString *pEmail = [[pView EmailTextField] text];
+    NSString *pPassword = [[pView PasswordTextField] text];
     
-    MCOIMAPMessagesRequestKind requestKind = MCOIMAPMessagesRequestKindHeaders;
-    NSString *folder = @"INBOX";
-    MCOIndexSet *uids = [MCOIndexSet indexSetWithRange:MCORangeMake(1, 3)];
-    
-    MCOIMAPFetchMessagesOperation *fetchOperation = [session fetchMessagesByUIDOperationWithFolder:folder requestKind:requestKind uids:uids];
-    
-    MCOIMAPFolderStatusOperation *_FolderStatusOperation =[session folderStatusOperation:@"INBOX"];
-    [_FolderStatusOperation start:^(NSError *error, MCOIMAPFolderStatus *status) {
-        uint32_t iMessages = status.messageCount;
-        NSLog(@"%u", iMessages);
-    }];
-    
-    [fetchOperation start:^(NSError * error, NSArray * fetchedMessages, MCOIndexSet * vanishedMessages) {
-        //We've finished downloading the messages!
+    if([pEmail  isEqual: @""] || [pPassword  isEqual: @""]){
+        UIAlertView* pErrorView = [[UIAlertView alloc]
+                                   initWithTitle:@"Error"
+                                   message:@"You must enter Email and password!"
+                                   delegate:NULL
+                                   cancelButtonTitle:@"OK"
+                                   otherButtonTitles:nil];
         
+        [pErrorView show];
+        return;
+    }
+    
+    [[pView GoToMailsButton] setEnabled:NO];
+    [pView setIsActivityIndicatorEnable:YES];
+    [pView setNeedsLayout];
+    
+    if(![self Session]){
+        m_pSession = [[MCOIMAPSession alloc] init];
+        [m_pSession setHostname:@"imap.gmail.com"];
+        [m_pSession setPort:993];
+        [m_pSession setUsername:pEmail];
+        [m_pSession setPassword:pPassword];
+        [m_pSession setConnectionType:MCOConnectionTypeTLS];
+    }
+    
+    
+    MCOIMAPFolderStatusOperation *pFolderStatusOperation =[[self Session] folderStatusOperation:@"INBOX"];
+    [pFolderStatusOperation start:^(NSError *error, MCOIMAPFolderStatus *status) {
         
-        for (int i = 0; i < [fetchedMessages count]; i++) {
-            MCOIMAPMessage *m = fetchedMessages[i];
+        [pView setIsActivityIndicatorEnable:false];
+        [pView setNeedsLayout];
+        
+        if(error){
+            UIAlertView* pErrorView = [[UIAlertView alloc]
+                                       initWithTitle:@"Error"
+                                       message:@"Fail get message count!"
+                                       delegate:NULL
+                                       cancelButtonTitle:@"OK"
+                                       otherButtonTitles:nil];
             
-            NSLog(@"%@", m.header.subject);
-            NSLog(@"%@", m.header.date);
-            NSLog(@"%@", m.header.sender.displayName);
+            [pErrorView show];
+            [[pView GoToMailsButton] setEnabled:YES];
+            [pView setIsActivityIndicatorEnable:false];
+            [pView setNeedsLayout];
             
-            MCOIMAPFetchContentOperation *operation = [session fetchMessageByUIDOperationWithFolder:@"INBOX" uid:m.uid];
+            [self setSession:NULL];
             
-            [operation start:^(NSError *error, NSData *data) {
-                MCOMessageParser *messageParser = [[MCOMessageParser alloc] initWithData:data];
-                
-                NSString *msgHTMLBody = [messageParser htmlBodyRendering];
-//                NSLog(@"%i", i);
-            }];
+            return;
         }
-        
-        //Let's check if there was an error:
-        if(error) {
-            NSLog(@"Error downloading message headers:%@", error);
-        }
-        
-        //And, let's print out the messages...
-        NSLog(@"The post man delivereth:%@", fetchedMessages);
+        m_pMessagesCount = status.messageCount;
+        [self performSegueWithIdentifier:kToMailSegueId sender:self];
     }];
-    
-    
-    
-    
-    
-    [self performSegueWithIdentifier:kToMailSegueId sender:self];
+}
+
+
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:kToMailSegueId]) {
+        MCMailPreviewTableViewController *destViewController = segue.destinationViewController;
+        [destViewController setMesaagesCount:[self MesaagesCount]];
+        [destViewController setSession:[self Session]];
+        [[destViewController tableView] reloadData];
+    }
 }
 
 @end

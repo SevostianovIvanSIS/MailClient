@@ -11,6 +11,8 @@
 @implementation MCDetailMailView
 
 @synthesize MailContentView = m_pMailContentView;
+@synthesize ActivityIndicator = m_pActivityIndicator;
+@synthesize IsActivityIndicatorEnable = m_bIsActivityIndicatorEnable;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -21,13 +23,42 @@
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
+- (id)init{
+    self = [super init];
+    if (self) {
+        [self setIsActivityIndicatorEnable:YES];
+    }
+    return self;
 }
-*/
+
+
+- (void)layoutSubviews{
+    if(![self IsActivityIndicatorEnable]){
+        [m_pActivityIndicator setColor:[UIColor clearColor]];
+        [m_pActivityIndicator setHidden:YES];
+    }else{
+        [m_pActivityIndicator setColor:[UIColor grayColor]];
+        [m_pActivityIndicator setHidden:NO];
+    }
+    
+    for (UIView *aView in [[self MailContentView] subviews])
+    {
+        if ([aView isKindOfClass:[UIScrollView class]])
+        {
+            UIScrollView* scView = (UIScrollView *)aView;
+            
+            [scView setShowsHorizontalScrollIndicator:NO];
+            scView.bounces = NO;
+            
+            for (UIView *shadowView in aView.subviews)
+            {
+                if ([shadowView isKindOfClass:[UIImageView class]])
+                {
+                    shadowView.hidden = YES;
+                }
+            }
+        }
+    }
+}
 
 @end

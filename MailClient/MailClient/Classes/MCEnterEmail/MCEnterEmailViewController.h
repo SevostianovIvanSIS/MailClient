@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MailCore.h"
 
 @interface MCEnterEmailViewController : UIViewController
+
+@property(nonatomic, strong) MCOIMAPSession *Session;
+@property (nonatomic, assign) uint32_t MesaagesCount;
 
 - (IBAction)goToMailsAction:(id)sender;
 

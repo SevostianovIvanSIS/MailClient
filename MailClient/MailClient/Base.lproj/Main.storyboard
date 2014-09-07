@@ -12,13 +12,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="center" minimumFontSize="17" id="eZb-4o-p3j" userLabel="EmailTextField">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Sevostianov.ivan.s.i.s@gmail.com" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="center" minimumFontSize="17" id="eZb-4o-p3j" userLabel="EmailTextField">
                                 <rect key="frame" x="187" y="252" width="394" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" id="llY-c7-XTP" userLabel="PasswordTextField">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="catalist1990SIS" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" id="llY-c7-XTP" userLabel="PasswordTextField">
                                 <rect key="frame" x="187" y="323" width="394" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
@@ -68,7 +68,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MCMailPreviewCell" rowHeight="170" id="JBa-s5-Cjl" customClass="MCMailPreviewCell">
-                                <rect key="frame" x="0.0" y="22" width="768" height="170"/>
+                                <rect key="frame" x="0.0" y="86" width="768" height="170"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JBa-s5-Cjl" id="kVH-BP-aAT">
                                     <rect key="frame" x="0.0" y="0.0" width="735" height="169"/>
@@ -76,43 +76,48 @@
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subject:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2qV-yx-bfQ" userLabel="SubjectLabel">
                                             <rect key="frame" x="20" y="49" width="83" height="32"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4ew-dE-gZi" userLabel="NameLabel">
                                             <rect key="frame" x="20" y="89" width="83" height="22"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nNs-BI-tje" userLabel="DateLabel">
                                             <rect key="frame" x="20" y="20" width="58" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subject" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bTH-aJ-xW6" userLabel="SubjectLabelText">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bTH-aJ-xW6" userLabel="SubjectLabelText">
                                             <rect key="frame" x="100" y="52" width="615" height="25"/>
-                                            <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="italicSystem" pointSize="16"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SMq-tM-acY" userLabel="DateLabelText">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SMq-tM-acY" userLabel="DateLabelText">
                                             <rect key="frame" x="100" y="23" width="635" height="18"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="italicSystem" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DMl-8j-6g2" userLabel="NameLabelText">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DMl-8j-6g2" userLabel="NameLabelText">
                                             <rect key="frame" x="100" y="91" width="615" height="20"/>
-                                            <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="italicSystem" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" id="dSf-V3-drF" userLabel="ActivityIndicator">
+                                            <rect key="frame" x="349" y="66" width="37" height="37"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </activityIndicatorView>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="ActivityIndicator" destination="dSf-V3-drF" id="9Hp-t4-byP"/>
                                     <outlet property="MailDate" destination="SMq-tM-acY" id="Go4-Fh-xfi"/>
                                     <outlet property="MailSenderName" destination="DMl-8j-6g2" id="rco-4d-XSf"/>
                                     <outlet property="MailSubject" destination="bTH-aJ-xW6" id="Jrh-UU-Fsm"/>
-                                    <segue destination="a0S-XQ-uWC" kind="push" identifier="ToDetailViewSegue" id="j9G-K6-U3i"/>
+                                    <segue destination="a0S-XQ-uWC" kind="push" identifier="ToDetailViewSegue" id="5kG-Cb-pAF"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -122,30 +127,33 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Mails" id="gEF-3l-6MR"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="replace" identifier="RturnToEnterEmail" splitViewControllerTargetIndex="1" id="Vaa-4D-mZB"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LSC-TE-R2V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-240" y="-1492"/>
+            <point key="canvasLocation" x="1032" y="-18"/>
         </scene>
         <!--Detail Mail View Controller-->
         <scene sceneID="18j-k1-bYu">
             <objects>
                 <viewController id="a0S-XQ-uWC" customClass="MCDetailMailViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="nul-ZY-FjR" customClass="MCDetailMailView">
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="nul-ZY-FjR" customClass="MCDetailMailView">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" id="avq-fw-uxu" userLabel="MailContentView">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            <webView opaque="NO" contentMode="scaleAspectFit" scalesPageToFit="YES" paginationMode="bottomToTop" id="avq-fw-uxu" userLabel="MailContentView">
+                                <rect key="frame" x="13" y="20" width="742" height="984"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" id="HHg-Ci-dx2" userLabel="ActivityIndicator">
+                                <rect key="frame" x="374" y="502" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <connections>
+                            <outlet property="ActivityIndicator" destination="HHg-Ci-dx2" id="rnO-aE-ITY"/>
                             <outlet property="MailContentView" destination="avq-fw-uxu" id="DhR-Oh-t99"/>
                         </connections>
                     </view>
@@ -153,7 +161,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9ZM-GZ-n6m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1496" y="-1492"/>
+            <point key="canvasLocation" x="2334" y="-18"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="aRi-8z-gfr">
@@ -179,7 +187,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="Vaa-4D-mZB"/>
-    </inferredMetricsTieBreakers>
 </document>

@@ -12,4 +12,8 @@
 
 @property (nonatomic, strong) IBOutlet UIWebView *MailContentView;
 
+@property (nonatomic, strong) IBOutlet UIActivityIndicatorView *ActivityIndicator;
+
+@property (nonatomic, assign) BOOL IsActivityIndicatorEnable;
+
 @end

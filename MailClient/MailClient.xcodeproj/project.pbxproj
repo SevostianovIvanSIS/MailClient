@@ -22,6 +22,7 @@
 		E9287B8719BC49BE00DE4137 /* MCEnterEmailView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9287B8619BC49BE00DE4137 /* MCEnterEmailView.m */; };
 		E9287B8D19BC555C00DE4137 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9287B5219BC461600DE4137 /* InfoPlist.strings */; };
 		E9287B8E19BC558700DE4137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9287B5B19BC461600DE4137 /* Main.storyboard */; };
+		E9B0043819BD106400309C96 /* MCMailPreviewCellHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B0043719BD106400309C96 /* MCMailPreviewCellHelper.m */; };
 		E9B5DD7D19BCD5930022EAB7 /* MCMailPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B5DD7C19BCD5930022EAB7 /* MCMailPreviewCell.m */; };
 		E9B5DD8019BCD5F20022EAB7 /* MCMailPreviewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B5DD7F19BCD5F20022EAB7 /* MCMailPreviewTableViewController.m */; };
 		E9B5DD8719BCD7C60022EAB7 /* MCDetailMailView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B5DD8619BCD7C60022EAB7 /* MCDetailMailView.m */; };
@@ -81,6 +82,8 @@
 		E9287B8119BC498100DE4137 /* MCEnterEmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCEnterEmailViewController.m; sourceTree = "<group>"; };
 		E9287B8519BC49BE00DE4137 /* MCEnterEmailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCEnterEmailView.h; sourceTree = "<group>"; };
 		E9287B8619BC49BE00DE4137 /* MCEnterEmailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCEnterEmailView.m; sourceTree = "<group>"; };
+		E9B0043619BD106400309C96 /* MCMailPreviewCellHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMailPreviewCellHelper.h; sourceTree = "<group>"; };
+		E9B0043719BD106400309C96 /* MCMailPreviewCellHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMailPreviewCellHelper.m; sourceTree = "<group>"; };
 		E9B5DD7B19BCD5930022EAB7 /* MCMailPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMailPreviewCell.h; sourceTree = "<group>"; };
 		E9B5DD7C19BCD5930022EAB7 /* MCMailPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMailPreviewCell.m; sourceTree = "<group>"; };
 		E9B5DD7E19BCD5F20022EAB7 /* MCMailPreviewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMailPreviewTableViewController.h; sourceTree = "<group>"; };
@@ -838,6 +841,8 @@
 			children = (
 				E9B5DD7B19BCD5930022EAB7 /* MCMailPreviewCell.h */,
 				E9B5DD7C19BCD5930022EAB7 /* MCMailPreviewCell.m */,
+				E9B0043619BD106400309C96 /* MCMailPreviewCellHelper.h */,
+				E9B0043719BD106400309C96 /* MCMailPreviewCellHelper.m */,
 			);
 			path = MCMailPreviewCell;
 			sourceTree = "<group>";
@@ -1766,6 +1771,7 @@
 				E9B5DD8A19BCD7F70022EAB7 /* MCDetailMailViewController.m in Sources */,
 				E9287B5619BC461600DE4137 /* main.m in Sources */,
 				E9B5DD8719BCD7C60022EAB7 /* MCDetailMailView.m in Sources */,
+				E9B0043819BD106400309C96 /* MCMailPreviewCellHelper.m in Sources */,
 				E9B5DD8019BCD5F20022EAB7 /* MCMailPreviewTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

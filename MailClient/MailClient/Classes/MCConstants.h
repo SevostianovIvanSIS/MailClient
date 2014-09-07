@@ -10,6 +10,8 @@
 #define MailClient_MCConstants_h
 #import "MCSegueId.h"
 
+static NSString * const kMCMailPreviewCellId = @"MCMailPreviewCell";
+
 
 
 
