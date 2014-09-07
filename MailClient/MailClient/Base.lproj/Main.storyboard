@@ -12,13 +12,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Sevostianov.ivan.s.i.s@gmail.com" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="center" minimumFontSize="17" id="eZb-4o-p3j" userLabel="EmailTextField">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="center" minimumFontSize="17" id="eZb-4o-p3j" userLabel="EmailTextField">
                                 <rect key="frame" x="187" y="252" width="394" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="catalist1990SIS" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" id="llY-c7-XTP" userLabel="PasswordTextField">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" id="llY-c7-XTP" userLabel="PasswordTextField">
                                 <rect key="frame" x="187" y="323" width="394" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
